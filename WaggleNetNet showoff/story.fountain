@@ -1,0 +1,163 @@
+Title: <insert name here>
+
+Author: WaggleNet CineSquad
+Draft Date: 9/16/2019
+
+INT. The Hacking Lab (ECEB 3066?) - midnight #1-NWWTL#
+
+Felix is fumbling with a mess of circuits on a breadboard - the complexity is daunting but Felix clearly knows what he's doing.
+
+In front of him, two monitors are rapidly flashing with texts, plots and strange-looking schematics.
+
+Felix's fingers twitched a little - and connected a wire where it should not have been. The circuit explodes - releasing sparks, smokes along with a sharp "POP!" sound.
+
+FELIX (O.S.)
+Oh no, this is not good.
+
+Felix raises his coffee cup to drink. Half way in the air, his hand stopped - FELIX realizes it's empty. Felix quickly slams his cup onto the desk.
+
+CUT AT THE IMPACT TO:
+
+EXT. The ECEB - dawn #2-2IOM9#
+
+The light in a lab suddenly goes down.
+
+Before one realizes, all lights along the 3rd floor corridor of ECEB start going down one by one. Before one realizes, appliances in the kitchens, cafeterias and breakrooms all start breaking down too. Some start releasing smoke puffs, some's lights start flashing, dimming and twinkling away.
+
+Dawn quickly breaks over the campus; So awakens the radio chatters. SERIES OF SHOTS:
+- The quiet North Quad and ECEB.
+- Bird's eye view of the campus, where the street lights are still shining bright.
+
+/*
+ * The following ATC conversion is derived from CMI airport info:
+ * http://vfrmap.com/?type=vfrc&lat=40.039&lon=-88.278&zoom=10&api_key=763xxE1MJHyhr48DlAP2qQ
+*/
+
+COMMANDER (On the radio)
+Situation on the 4 o'clock. Got a visual. Repeat. Visual on target.
+
+ROTOR SQUAD (On the radio)
+Rotor squad reporting. Zero-tree-niner-one and ident
+
+COMMANDER (On the radio)
+Zero tree niner one. You're clear to roll.
+
+ROTOR SQUAD (On the radio)
+Stand by one. We need a vector.
+
+/* Interleave the following dialog with subsequent scenes. */
+
+CONTROL TOWER (On the radio)
+Whiskey Delta six left clear to 120 feet, contact ONE TWO ZERO DECIMAL FOUR on takeoff.
+
+ROTOR SQUAD (On the radio)
+Six left one-twenty, ONE TWO OH FOUR, Rotor squad.
+
+STRIKE TEAM (On the radio) ^
+Strike team reporting. Echo-Charlie-Echo-Bravo and ident.
+
+COMMANDER (On the radio)
+Strike team take position. Air support heading your way EIGHT o'clock.
+
+STRIKE TEAM (On the radio)
+Rendezvous at EIGHT, two feet in. Solid copy.
+
+/* FIXME: The radio chatter can be made into significantly lower quality once the ECEB light cuts out; Then we bring it back with WaggleNetNet. */
+
+/* *** BRIEF FOR CAST ***
+ * COMMANDER is an arbituary unit not depicted in pictures.
+ * STRIKE TEAM will be stationed at the ECEB for the final assembly.
+ * ROTOR SQUAD is the main group of characters setting up the areial transport.
+ */
+
+EXT. Out in the wild - morning.
+
+ROTOR SQUAD members marching down the wilderness in a solid formation, whipping dust into the air by the footsteps. Firmly held in each member's hand is a toolbox, which reflects the warm glare of the rising sun. The team settles by the shed. One member begins unfolding a table and another pops open a portable shed.
+
+Everyone places the toolbox onto the table, revealing the WaggleNet logo sticker on the face of the boxes. Each box is opened with the opening facing up. Then the members take their laptops out onto the table and open them in rapid succession.
+
+Suggested content in each box:
+- A full rover with the dropping adapter.
+- Another full rover.
+- A drone.
+- WaggleRouter and bunch of other tools.
+- Materials to transport (e.g. a pump, batteries).
+
+EXT. At the ROTOR SQUAD base.
+
+LAPTOP ONSCREEN DISPLAY
+Connecting to WaggleNet...
+
+The crew quickly plugs in the Router into USB and momentarily the prompt disappears and the main UI appears on the laptop. We refer to the main UI as **the program**.
+
+/* The squad is now split into two groups, A and B thereafter. Group A assembles the hardware and Group B flies the drone. */
+
+Suggested UI on the other laptops:
+- https://github.com/GitSquared/edex-ui with https://github.com/abishekvashok/cmatrix
+- Scrolling command line
+
+Group A plugs batteries into each rover, and it is instantly displayed onto **the program**. Plots of the battery level and temperature of the systems begin scrolling in the lower part of **the program**.
+
+Group B starts powering up the drone on the left side of the laptop, and afterwards, begins helping Group A attach the rover to the drone's airdropping adapter.
+
+ONSCREEN DISPLAY MESSAGE
+Payload attached.
+
+One of the member grabs the drone controller and flies the drone upward and forward, slightly beyond their face level. Then it's a full-stick forward. **The program** displays distance of the drone from base and its location on a map. Once the first one's underway, multiple drones swarm forward, each carrying a rover except one of them - presumably acting as a communication relay.
+
+DISPLAYED ON THE PROGRAM
+A map of the drones forming a small topology over the map, with the relaying drone highlighted by an animated circular ripple.
+
+/* Tech note: The location can be made up, or can reflect the drone's GPS coordinate if feasible. */
+
+
+EXT. Drones flying in formation away from the base.
+
+/* TODO: Radio chatters over this course */
+
+EXT. Drones flying in formation over the Engineering Quad.
+
+EXT. Deploying the rovers.
+
+The view zooms in towards one of the drones. It lowers itself significantly over a glide path and drops the rover.
+
+Flashing back to the base, the ROTOR SQUAD continues to monitor the descent. The screen starts showing the distance between the rover and the ground rapidly decreasing. Now back to the rover, the parachute has extended.
+
+ONSCREEN DISPLAY MESSAGE
+Parachute deployed.
+
+
+INT. At a lab in the ECEB. Introducing the Strike Team.
+
+Inside the lab it is all dark. A desklamp is turned on, revealing a long table. A stack of lunch boxes are broughted onto the end of a long table; and a person starts unstacking them, while others follow and unpack behind. One person grabs a Windows tablet and strides out of the lab, raising the tablet while on the move.
+
+TABLET ONSCREEN DISPLAY
+Connecting to WaggleNet.. -> *Shows the main UI identical to that of Rotor Squad*
+
+/* TODO: Radio chatter around acquisition of signal */
+
+EXT. In front of the ECEB.
+
+The first rover slowly descends towards the ground. The strike team begins working out of the ECEB in small clusters, all staring at the rover as it is about to touch down.
+
+
+EXT. Back at the base.
+
+The Rover Squad carefully monitors the rover. Except the ones controlling the drones, everyone's paying full attention to the program. The distance above the ground continues to decrease.
+
+ONSCREEN DISPLAY MESSAGE
+Parachute jettisoned.
+
+The rover detaches the parachute and begins thrusting forward.
+
+/* TODO: Radio chatter declaring handover of control to the Strike Team. */
+
+EXT. In front of the ECEB.
+
+All rovers begin entering the building. Our view follows them on their path while the drones rapidly thrust away from the scene. Each rover carries a small part of the coffee machine.
+
+/* TODO: Scenes where the Strike Team begins assembling the coffee machine and hooking *it* also to WaggleNetNet */
+
+/* TODO: Scene where the first cup of coffee is poured and transported by a rover out */
+
+/* TODO: Scene where Felix drinks the coffee, and then the light of his office turns on, followed by every other room of ECEB */
