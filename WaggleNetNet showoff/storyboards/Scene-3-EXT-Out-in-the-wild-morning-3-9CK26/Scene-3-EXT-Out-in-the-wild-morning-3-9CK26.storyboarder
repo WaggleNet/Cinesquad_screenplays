@@ -1,0 +1,79 @@
+{
+  "version": "1.14.0",
+  "aspectRatio": "1.7777777777777777",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "VCA7J",
+      "url": "board-2-VCA7J.png",
+      "newShot": false,
+      "lastEdited": 1571345684497,
+      "layers": {},
+      "number": 1,
+      "shot": "1A",
+      "time": 0,
+      "action": "ROTOR SQUAD members marching down the wilderness in a solid formation. ",
+      "notes": "(OH) Start from the bell tower, cut into the birds-eye view overhead."
+    },
+    {
+      "uid": "5ZZC1",
+      "url": "board-1-5ZZC1.png",
+      "newShot": false,
+      "lastEdited": 1571343931178,
+      "layers": {},
+      "number": 2,
+      "shot": "2A",
+      "time": 2000,
+      "duration": "11700",
+      "action": "ROTOR SQUAD members whipping dust into the air by the footsteps. Firmly held in each member's hand is a toolbox."
+    },
+    {
+      "uid": "3VN32",
+      "url": "board-3-3VN32.png",
+      "newShot": false,
+      "lastEdited": 1571345801465,
+      "layers": {},
+      "number": 3,
+      "shot": "3A",
+      "time": 13700,
+      "notes": "",
+      "action": "Members settle at the foellinger podium. Everyone places the toolbox on the table and opens it."
+    },
+    {
+      "uid": "5DPWJ",
+      "url": "board-4-5DPWJ.png",
+      "newShot": false,
+      "lastEdited": 1571345902826,
+      "layers": {},
+      "number": 4,
+      "shot": "4A",
+      "time": 15700,
+      "action": "One member opens the box with a sticker on the lid, revealing its content. The content includes WaggleRouter and other appliances.",
+      "notes": "(OS) Frame over the shoulder FPV at the box being opened."
+    },
+    {
+      "uid": "VVY3R",
+      "url": "board-5-VVY3R.png",
+      "newShot": false,
+      "lastEdited": 1571346121454,
+      "layers": {},
+      "number": 5,
+      "shot": "5A",
+      "time": 17700,
+      "action": "One person hands a laptop to another person. The other person takes the laptop and opens it one hand while also placing it down. (Don't need to reveal what's on the screen)."
+    },
+    {
+      "uid": "WK1GT",
+      "url": "board-6-WK1GT.png",
+      "newShot": false,
+      "lastEdited": 1571346448312,
+      "layers": {},
+      "number": 6,
+      "shot": "6A",
+      "time": 19700,
+      "action": "Member 1 - Configures remote\nMember 2 - Takes drone out of the box\nMember 3 - Typing\nMember 4 - Configures car\nMember 5 - Works with the coffee parts",
+      "notes": "TODO: multi shot"
+    }
+  ]
+}

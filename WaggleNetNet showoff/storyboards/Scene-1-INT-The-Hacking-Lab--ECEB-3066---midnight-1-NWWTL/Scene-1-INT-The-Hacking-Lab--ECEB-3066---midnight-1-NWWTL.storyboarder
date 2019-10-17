@@ -1,0 +1,30 @@
+{
+  "version": "1.14.0",
+  "aspectRatio": "1.7777777777777777",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "KECLL",
+      "url": "board-1-KECLL.png",
+      "newShot": false,
+      "lastEdited": 1571343105959,
+      "layers": {},
+      "number": 1,
+      "shot": "1A",
+      "time": 0,
+      "duration": "24000",
+      "notes": "INT. The Hacking Lab (ECEB 3066?) - midnight\nundefined"
+    },
+    {
+      "uid": "6CBW2",
+      "url": "board-2-6CBW2.png",
+      "newShot": false,
+      "lastEdited": 1571343122333,
+      "layers": {},
+      "number": 2,
+      "shot": "2A",
+      "time": 24000
+    }
+  ]
+}

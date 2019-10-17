@@ -1,0 +1,168 @@
+{
+  "version": "1.14.0",
+  "aspectRatio": "1.7777777777777777",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "G6C9R",
+      "url": "board-1-G6C9R.png",
+      "newShot": false,
+      "lastEdited": 1571343296250,
+      "layers": {
+        "reference": {
+          "url": "board-1-G6C9R-reference.png",
+          "opacity": 0.75
+        },
+        "shot-generator": {
+          "url": "board-1-G6C9R-shot-generator.png",
+          "opacity": 0.75
+        },
+        "fill": {
+          "url": "board-1-G6C9R-fill.png"
+        },
+        "tone": {
+          "url": "board-1-G6C9R-tone.png"
+        },
+        "pencil": {
+          "url": "board-1-G6C9R-pencil.png"
+        },
+        "ink": {
+          "url": "board-1-G6C9R-ink.png"
+        },
+        "notes": {
+          "url": "board-1-G6C9R-notes.png"
+        }
+      },
+      "number": 1,
+      "shot": "1A",
+      "time": 0,
+      "lineMileage": 1254.2341676212145,
+      "duration": "2100",
+      "action": "The light in a lab suddenly goes down.",
+      "notes": "(M) Film from the outside."
+    },
+    {
+      "uid": "O2G5G",
+      "url": "board-2-O2G5G.png",
+      "newShot": false,
+      "lastEdited": 1571344096660,
+      "layers": {
+        "notes": {
+          "url": "board-2-O2G5G-notes.png"
+        }
+      },
+      "number": 2,
+      "shot": "2A",
+      "time": 2100,
+      "notes": "(M) Profile scan of a corridor",
+      "action": "Corridor lights go out one by one."
+    },
+    {
+      "uid": "FRKR1",
+      "url": "board-3-FRKR1.png",
+      "newShot": false,
+      "lastEdited": 1571344146670,
+      "layers": {
+        "reference": {
+          "url": "board-3-FRKR1-reference.png",
+          "opacity": 0.75
+        }
+      },
+      "number": 3,
+      "shot": "3A",
+      "time": 4100,
+      "notes": "(M) Aerial surround; try not to expose the bright parts",
+      "action": "The ECEB powers down; becomes dark",
+      "lineMileage": 0
+    },
+    {
+      "uid": "EOOB4",
+      "url": "board-4-EOOB4.png",
+      "newShot": false,
+      "lastEdited": 1571344301352,
+      "layers": {},
+      "number": 4,
+      "shot": "4A",
+      "time": 6100,
+      "notes": "(MCU) Profile shot of kitchen; appliances turn off when in sight. Ends with lights-out (dark)",
+      "action": "Kitchen light goes down, then appliances break down in smoke"
+    },
+    {
+      "uid": "UTY2L",
+      "url": "board-5-UTY2L.png",
+      "newShot": false,
+      "lastEdited": 1571344448736,
+      "layers": {
+        "shot-generator": {
+          "url": "board-5-UTY2L-shot-generator.png",
+          "opacity": 0.75
+        },
+        "reference": {
+          "url": "board-5-UTY2L-reference.png",
+          "opacity": 0.75
+        },
+        "fill": {
+          "url": "board-5-UTY2L-fill.png"
+        },
+        "tone": {
+          "url": "board-5-UTY2L-tone.png"
+        },
+        "pencil": {
+          "url": "board-5-UTY2L-pencil.png"
+        },
+        "ink": {
+          "url": "board-5-UTY2L-ink.png"
+        },
+        "notes": {
+          "url": "board-5-UTY2L-notes.png"
+        }
+      },
+      "number": 5,
+      "shot": "5A",
+      "time": 8100,
+      "action": "Dawn breaks over the campus.",
+      "dialogue": "COMMANDER (On the radio) Situation on the 4 o'clock. Got a visual. Repeat. Visual on target.",
+      "duration": "3700",
+      "notes": "(W) Aerial survey of the north quad"
+    },
+    {
+      "uid": "P4KYM",
+      "url": "board-6-P4KYM.png",
+      "newShot": false,
+      "lastEdited": 1571344653985,
+      "layers": {
+        "shot-generator": {
+          "url": "board-6-P4KYM-shot-generator.png",
+          "opacity": 0.75
+        },
+        "reference": {
+          "url": "board-6-P4KYM-reference.png",
+          "opacity": 0.75
+        },
+        "fill": {
+          "url": "board-6-P4KYM-fill.png"
+        },
+        "tone": {
+          "url": "board-6-P4KYM-tone.png"
+        },
+        "pencil": {
+          "url": "board-6-P4KYM-pencil.png"
+        },
+        "ink": {
+          "url": "board-6-P4KYM-ink.png"
+        },
+        "notes": {
+          "url": "board-6-P4KYM-notes.png"
+        }
+      },
+      "number": 6,
+      "shot": "6A",
+      "time": 11800,
+      "action": "Dawn breaks over the campus.",
+      "dialogue": "",
+      "duration": "3700",
+      "notes": "(W) Aerial CSL -> DSL, slam dunk over Grainger, ends from roof,"
+    }
+  ]
+}
