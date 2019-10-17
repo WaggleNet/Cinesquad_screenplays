@@ -7,14 +7,11 @@ INT. The Hacking Lab (ECEB 3066?) - midnight #1-NWWTL#
 
 Felix is fumbling with a mess of circuits on a breadboard - the complexity is daunting but Felix clearly knows what he's doing.
 
-In front of him, two monitors are rapidly flashing with texts, plots and strange-looking schematics.
-
-Felix's fingers twitched a little - and connected a wire where it should not have been. The circuit explodes - releasing sparks, smokes along with a sharp "POP!" sound.
-
-FELIX (O.S.)
-Oh no, this is not good.
+In front of him, two monitors are rapidly flashing with texts, plots and strange-looking schematics. 
 
 Felix raises his coffee cup to drink. Half way in the air, his hand stopped - FELIX realizes it's empty. Felix quickly slams his cup onto the desk.
+
+Felix's fingers twitched a little - and connected a wire where it should not have been. The circuit explodes - releasing sparks, smokes along with a sharp "POP!" sound.
 
 CUT AT THE IMPACT TO:
 
@@ -70,7 +67,7 @@ Rendezvous at EIGHT, two feet in. Solid copy.
  * ROTOR SQUAD is the main group of characters setting up the areial transport.
  */
 
-EXT. Out in the wild - morning.
+EXT. Out in the wild - morning. #3-9CK26#
 
 ROTOR SQUAD members marching down the wilderness in a solid formation, whipping dust into the air by the footsteps. Firmly held in each member's hand is a toolbox, which reflects the warm glare of the rising sun. The team settles by the shed. One member begins unfolding a table and another pops open a portable shed.
 
@@ -83,7 +80,7 @@ Suggested content in each box:
 - WaggleRouter and bunch of other tools.
 - Materials to transport (e.g. a pump, batteries).
 
-EXT. At the ROTOR SQUAD base.
+EXT. At the ROTOR SQUAD base. #4-OE786#
 
 LAPTOP ONSCREEN DISPLAY
 Connecting to WaggleNet...
@@ -111,13 +108,13 @@ A map of the drones forming a small topology over the map, with the relaying dro
 /* Tech note: The location can be made up, or can reflect the drone's GPS coordinate if feasible. */
 
 
-EXT. Drones flying in formation away from the base.
+EXT. Drones flying in formation away from the base. #5-S1M27#
 
 /* TODO: Radio chatters over this course */
 
-EXT. Drones flying in formation over the Engineering Quad.
+EXT. Drones flying in formation over the Engineering Quad. #6-BSZZ2#
 
-EXT. Deploying the rovers.
+EXT. Deploying the rovers. #7-YCVK9#
 
 The view zooms in towards one of the drones. It lowers itself significantly over a glide path and drops the rover.
 
@@ -127,7 +124,7 @@ ONSCREEN DISPLAY MESSAGE
 Parachute deployed.
 
 
-INT. At a lab in the ECEB. Introducing the Strike Team.
+INT. At a lab in the ECEB. Introducing the Strike Team. #8-E51NU#
 
 Inside the lab it is all dark. A desklamp is turned on, revealing a long table. A stack of lunch boxes are broughted onto the end of a long table; and a person starts unstacking them, while others follow and unpack behind. One person grabs a Windows tablet and strides out of the lab, raising the tablet while on the move.
 
@@ -136,12 +133,12 @@ Connecting to WaggleNet.. -> *Shows the main UI identical to that of Rotor Squad
 
 /* TODO: Radio chatter around acquisition of signal */
 
-EXT. In front of the ECEB.
+EXT. In front of the ECEB. #9-AJHYA#
 
 The first rover slowly descends towards the ground. The strike team begins working out of the ECEB in small clusters, all staring at the rover as it is about to touch down.
 
 
-EXT. Back at the base.
+EXT. Back at the base. #10-2OLU9#
 
 The Rover Squad carefully monitors the rover. Except the ones controlling the drones, everyone's paying full attention to the program. The distance above the ground continues to decrease.
 
@@ -152,7 +149,7 @@ The rover detaches the parachute and begins thrusting forward.
 
 /* TODO: Radio chatter declaring handover of control to the Strike Team. */
 
-EXT. In front of the ECEB.
+EXT. In front of the ECEB. #11-FE3Y7#
 
 All rovers begin entering the building. Our view follows them on their path while the drones rapidly thrust away from the scene. Each rover carries a small part of the coffee machine.
 
