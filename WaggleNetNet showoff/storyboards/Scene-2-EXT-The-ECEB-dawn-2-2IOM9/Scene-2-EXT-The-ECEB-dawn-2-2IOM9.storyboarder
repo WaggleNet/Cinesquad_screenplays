@@ -7,7 +7,7 @@
     {
       "uid": "G6C9R",
       "url": "board-1-G6C9R.png",
-      "newShot": false,
+      "newShot": true,
       "lastEdited": 1571343296250,
       "layers": {
         "reference": {
@@ -45,7 +45,7 @@
     {
       "uid": "O2G5G",
       "url": "board-2-O2G5G.png",
-      "newShot": false,
+      "newShot": true,
       "lastEdited": 1571344096660,
       "layers": {
         "notes": {
@@ -61,7 +61,7 @@
     {
       "uid": "FRKR1",
       "url": "board-3-FRKR1.png",
-      "newShot": false,
+      "newShot": true,
       "lastEdited": 1571344146670,
       "layers": {
         "reference": {
@@ -79,7 +79,7 @@
     {
       "uid": "EOOB4",
       "url": "board-4-EOOB4.png",
-      "newShot": false,
+      "newShot": true,
       "lastEdited": 1571344301352,
       "layers": {},
       "number": 4,
@@ -91,7 +91,7 @@
     {
       "uid": "UTY2L",
       "url": "board-5-UTY2L.png",
-      "newShot": false,
+      "newShot": true,
       "lastEdited": 1571344448736,
       "layers": {
         "shot-generator": {
@@ -129,7 +129,7 @@
     {
       "uid": "P4KYM",
       "url": "board-6-P4KYM.png",
-      "newShot": false,
+      "newShot": true,
       "lastEdited": 1571344653985,
       "layers": {
         "shot-generator": {
@@ -162,7 +162,7 @@
       "action": "Dawn breaks over the campus.",
       "dialogue": "",
       "duration": "3700",
-      "notes": "(W) Aerial CSL -> DSL, slam dunk over Grainger, ends from roof,"
+      "notes": "(W) Aerial CSL -> DSL, slam dunk over Grainger, ends from roof"
     }
   ]
 }

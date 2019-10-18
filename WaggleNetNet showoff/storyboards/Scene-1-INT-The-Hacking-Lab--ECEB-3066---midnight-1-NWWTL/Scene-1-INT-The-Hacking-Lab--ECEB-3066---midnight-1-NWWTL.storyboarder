@@ -9,17 +9,27 @@
       "url": "board-1-KECLL.png",
       "newShot": false,
       "lastEdited": 1571343105959,
-      "layers": {},
+      "layers": {
+        "reference": {
+          "url": "board-1-KECLL-reference.png",
+          "opacity": 0.75
+        },
+        "notes": {
+          "url": "board-1-KECLL-notes.png"
+        }
+      },
       "number": 1,
       "shot": "1A",
       "time": 0,
       "duration": "24000",
-      "notes": "INT. The Hacking Lab (ECEB 3066?) - midnight\nundefined"
+      "notes": "",
+      "lineMileage": 251.38285051062726,
+      "action": ""
     },
     {
       "uid": "6CBW2",
       "url": "board-2-6CBW2.png",
-      "newShot": false,
+      "newShot": true,
       "lastEdited": 1571343122333,
       "layers": {},
       "number": 2,

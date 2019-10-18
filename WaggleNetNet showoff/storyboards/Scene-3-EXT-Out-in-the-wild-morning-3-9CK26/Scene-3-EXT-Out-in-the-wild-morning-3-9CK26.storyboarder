@@ -5,73 +5,5644 @@
   "defaultBoardTiming": 2000,
   "boards": [
     {
-      "uid": "VCA7J",
-      "url": "board-2-VCA7J.png",
+      "uid": "SYX1C",
+      "url": "board-2-SYX1C.png",
       "newShot": false,
-      "lastEdited": 1571345684497,
-      "layers": {},
+      "lastEdited": 1571351778711,
+      "layers": {
+        "shot-generator": {
+          "url": "board-2-SYX1C-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-2-SYX1C-shot-generator-thumbnail.jpg"
+        },
+        "reference": {
+          "url": "board-2-SYX1C-reference.png",
+          "opacity": 1
+        },
+        "ink": {
+          "url": "board-2-SYX1C-ink.png"
+        }
+      },
       "number": 1,
       "shot": "1A",
       "time": 0,
+      "sg": {
+        "version": "1.14.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "40918F8B-B46E-4709-B9C6-27DF5BCF497B": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "40918F8B-B46E-4709-B9C6-27DF5BCF497B",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.14550709147780005,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 2.6813517172338583,
+              "y": -0.5207211966264786,
+              "z": 0
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 66.13131313131315,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": 3.106846442343791,
+              "tilt": -0.5398251523789394,
+              "type": "camera",
+              "x": 1.558183662255024,
+              "y": -7.165752860393006,
+              "z": 5.0000000000000036
+            },
+            "747BEB2C-7204-4EC9-B576-ACDF8683F2D5": {
+              "displayName": "Character 2",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "747BEB2C-7204-4EC9-B576-ACDF8683F2D5",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.16765236568679714,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 1.7710941638424944,
+              "y": 0.33007533902223507,
+              "z": 0
+            },
+            "74E724B9-883D-4136-B0F1-ED7728EAFD55": {
+              "displayName": "Character 3",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "74E724B9-883D-4136-B0F1-ED7728EAFD55",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.168221043981972,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -0.37987501729414674,
+              "y": 0.12966437829622457,
+              "z": 0
+            },
+            "7FFAAC61-1D60-4841-A3F5-7892EB075B26": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "7FFAAC61-1D60-4841-A3F5-7892EB075B26",
+              "model": "tree-bushy",
+              "rotation": {
+                "x": 0,
+                "y": -0.0019431525886228634,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 1.612028584261731,
+              "y": -5.711347222896082,
+              "z": 0
+            },
+            "EFF5FECB-BCA2-4410-A840-63AF80F431FF": {
+              "displayName": "Character 4",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "EFF5FECB-BCA2-4410-A840-63AF80F431FF",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.21552005481523753,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.48665418717039,
+              "y": 1.0359478308113685,
+              "z": 0
+            },
+            "F4CD3F75-B273-4AC6-9789-2F32C9F2E291": {
+              "displayName": "Character 5",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "F4CD3F75-B273-4AC6-9789-2F32C9F2E291",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.14136669638868832,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -1.4014443487447616,
+              "y": -0.9344717446182795,
+              "z": 0
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      },
+      "lineMileage": 0,
       "action": "ROTOR SQUAD members marching down the wilderness in a solid formation. ",
       "notes": "(OH) Start from the bell tower, cut into the birds-eye view overhead."
     },
     {
-      "uid": "5ZZC1",
-      "url": "board-1-5ZZC1.png",
+      "uid": "2JA83",
+      "url": "board-2-2JA83.png",
       "newShot": false,
-      "lastEdited": 1571343931178,
-      "layers": {},
+      "lastEdited": 1571352485298,
+      "layers": {
+        "shot-generator": {
+          "url": "board-2-2JA83-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-2-2JA83-shot-generator-thumbnail.jpg"
+        }
+      },
+      "shot": "1B",
       "number": 2,
-      "shot": "2A",
       "time": 2000,
-      "duration": "11700",
-      "action": "ROTOR SQUAD members whipping dust into the air by the footsteps. Firmly held in each member's hand is a toolbox."
+      "sg": {
+        "version": "1.14.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "40918F8B-B46E-4709-B9C6-27DF5BCF497B": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "40918F8B-B46E-4709-B9C6-27DF5BCF497B",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.14550709147780005,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 2.6813517172338583,
+              "y": -0.5207211966264786,
+              "z": 0
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 66.13131313131315,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": 3.0418464423437905,
+              "tilt": -0.8518251523789394,
+              "type": "camera",
+              "x": 1.7783500387795783,
+              "y": -5.150588188747761,
+              "z": 5.0000000000000036
+            },
+            "747BEB2C-7204-4EC9-B576-ACDF8683F2D5": {
+              "displayName": "Character 2",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "747BEB2C-7204-4EC9-B576-ACDF8683F2D5",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.16765236568679714,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 1.7710941638424944,
+              "y": 0.33007533902223507,
+              "z": 0
+            },
+            "74E724B9-883D-4136-B0F1-ED7728EAFD55": {
+              "displayName": "Character 3",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "74E724B9-883D-4136-B0F1-ED7728EAFD55",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.168221043981972,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -0.37987501729414674,
+              "y": 0.12966437829622457,
+              "z": 0
+            },
+            "7FFAAC61-1D60-4841-A3F5-7892EB075B26": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "7FFAAC61-1D60-4841-A3F5-7892EB075B26",
+              "model": "tree-bushy",
+              "rotation": {
+                "x": 0,
+                "y": -0.0019431525886228634,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 1.612028584261731,
+              "y": -5.711347222896082,
+              "z": 0
+            },
+            "EFF5FECB-BCA2-4410-A840-63AF80F431FF": {
+              "displayName": "Character 4",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "EFF5FECB-BCA2-4410-A840-63AF80F431FF",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.21552005481523753,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.48665418717039,
+              "y": 1.0359478308113685,
+              "z": 0
+            },
+            "F4CD3F75-B273-4AC6-9789-2F32C9F2E291": {
+              "displayName": "Character 5",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "F4CD3F75-B273-4AC6-9789-2F32C9F2E291",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.14136669638868832,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -1.4014443487447616,
+              "y": -0.9344717446182795,
+              "z": 0
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      }
     },
     {
-      "uid": "3VN32",
-      "url": "board-3-3VN32.png",
+      "uid": "IYU7C",
+      "url": "board-3-IYU7C.png",
       "newShot": false,
-      "lastEdited": 1571345801465,
-      "layers": {},
+      "lastEdited": 1571352500721,
+      "layers": {
+        "shot-generator": {
+          "url": "board-3-IYU7C-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-3-IYU7C-shot-generator-thumbnail.jpg"
+        }
+      },
+      "shot": "1C",
       "number": 3,
-      "shot": "3A",
-      "time": 13700,
-      "notes": "",
-      "action": "Members settle at the foellinger podium. Everyone places the toolbox on the table and opens it."
+      "time": 4000,
+      "sg": {
+        "version": "1.14.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "40918F8B-B46E-4709-B9C6-27DF5BCF497B": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "40918F8B-B46E-4709-B9C6-27DF5BCF497B",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.14550709147780005,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 2.6813517172338583,
+              "y": -0.5207211966264786,
+              "z": 0
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 66.13131313131315,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": 3.0208464423437906,
+              "tilt": -1.2698251523789394,
+              "type": "camera",
+              "x": 0.6677962165631417,
+              "y": -1.5323321873329199,
+              "z": 7.000000000000003
+            },
+            "747BEB2C-7204-4EC9-B576-ACDF8683F2D5": {
+              "displayName": "Character 2",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "747BEB2C-7204-4EC9-B576-ACDF8683F2D5",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.16765236568679714,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 1.7710941638424944,
+              "y": 0.33007533902223507,
+              "z": 0
+            },
+            "74E724B9-883D-4136-B0F1-ED7728EAFD55": {
+              "displayName": "Character 3",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "74E724B9-883D-4136-B0F1-ED7728EAFD55",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.168221043981972,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -0.37987501729414674,
+              "y": 0.12966437829622457,
+              "z": 0
+            },
+            "7FFAAC61-1D60-4841-A3F5-7892EB075B26": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "7FFAAC61-1D60-4841-A3F5-7892EB075B26",
+              "model": "tree-bushy",
+              "rotation": {
+                "x": 0,
+                "y": -0.0019431525886228634,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 1.612028584261731,
+              "y": -5.711347222896082,
+              "z": 0
+            },
+            "EFF5FECB-BCA2-4410-A840-63AF80F431FF": {
+              "displayName": "Character 4",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "EFF5FECB-BCA2-4410-A840-63AF80F431FF",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.21552005481523753,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.48665418717039,
+              "y": 1.0359478308113685,
+              "z": 0
+            },
+            "F4CD3F75-B273-4AC6-9789-2F32C9F2E291": {
+              "displayName": "Character 5",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "F4CD3F75-B273-4AC6-9789-2F32C9F2E291",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.14136669638868832,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -1.4014443487447616,
+              "y": -0.9344717446182795,
+              "z": 0
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      }
     },
     {
-      "uid": "5DPWJ",
-      "url": "board-4-5DPWJ.png",
-      "newShot": false,
-      "lastEdited": 1571345902826,
-      "layers": {},
+      "uid": "6NCOS",
+      "url": "board-2-6NCOS.png",
+      "newShot": true,
+      "lastEdited": 1571352318264,
+      "layers": {
+        "shot-generator": {
+          "url": "board-2-6NCOS-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-2-6NCOS-shot-generator-thumbnail.jpg"
+        },
+        "ink": {
+          "url": "board-2-6NCOS-ink.png"
+        }
+      },
+      "shot": "2A",
       "number": 4,
+      "time": 6000,
+      "sg": {
+        "version": "1.14.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "40918F8B-B46E-4709-B9C6-27DF5BCF497B": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "40918F8B-B46E-4709-B9C6-27DF5BCF497B",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.14550709147780005,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.4437043741483613e-11,
+                    "y": -1.5674043735188871e-9,
+                    "z": -1.5449401576642332e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379017966343,
+                    "y": -0.11931128690713848,
+                    "z": -0.1776163828469456
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.0677215903462463,
+                    "y": -0.07016375408230822,
+                    "z": 0.126716491643635
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392416897849434,
+                    "y": 0.06624830000311434,
+                    "z": 0.2987948025678505
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": 0.13096553396523117,
+                    "y": 0.06940182816636055,
+                    "z": -0.09006040471562371
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.01736562387173039,
+                    "y": -0.000253038693587159,
+                    "z": 0.0170784002528732
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168768249795,
+                    "y": -0.3419417014795543,
+                    "z": -1.6250958343266044
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": 0.04421475593033908,
+                    "y": 0.00012735137459508658,
+                    "z": -3.1172439644623426
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.14498144512581623,
+                    "y": -1.514734775144357e-15,
+                    "z": -1.46299190127226e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.0572280722221004,
+                    "y": 0.13045088998020857,
+                    "z": 0.15704636000820377
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 0.4933183075989712,
+                    "y": 0.0490047311738097,
+                    "z": -0.137206408446869
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067956535479544,
+                    "y": -0.1936847814419063,
+                    "z": -0.27250729784138067
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": 0.1113391635878989,
+                    "y": -0.07545093885791128,
+                    "z": 0.08236303300959155
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.00010518423989612306,
+                    "y": 0.00007557252101267338,
+                    "z": 0.0000010611674364557805
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116824380847,
+                    "y": 0.34169063197312344,
+                    "z": 1.6267164308034827
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -0.49107472185503914,
+                    "y": 0.0000023868341046457485,
+                    "z": 3.1251650223681637
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326723,
+                    "y": -1.8920244359429476e-16,
+                    "z": 5.3890473719657957e-17
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044963821803e-7,
+                    "y": 1.8431705521151742e-16,
+                    "z": -1.0164541874112677e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037499302976544e-7,
+                    "y": -1.0842173455754008e-17,
+                    "z": 3.6592356932978806e-17
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 2.6813517172338583,
+              "y": -0.5207211966264786,
+              "z": 0
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 7.625462546254638,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": -1.8676497352816384,
+              "tilt": -0.024825152378939404,
+              "type": "camera",
+              "x": -9.927777160460893,
+              "y": -3.106324944698467,
+              "z": 0.7000000000000027
+            },
+            "747BEB2C-7204-4EC9-B576-ACDF8683F2D5": {
+              "displayName": "Character 2",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "747BEB2C-7204-4EC9-B576-ACDF8683F2D5",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.16765236568679714,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -8.628563841706181e-11,
+                    "y": -5.248604801409725e-9,
+                    "z": -4.590720048198385e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 2.168435863478355e-16,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708378558387097,
+                    "y": -0.11931110379282106,
+                    "z": -0.1776164374041923
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.4949868837795024,
+                    "y": -0.0653972929479585,
+                    "z": 0.12329464479528879
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392423348903563,
+                    "y": 0.0662481660511029,
+                    "z": 0.2987948738727458
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": 0.13096552569724934,
+                    "y": 0.06940182372689473,
+                    "z": -0.09006039612556974
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.6203283018109635,
+                    "y": 0.004461692719892881,
+                    "z": -0.00348642722470016
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529167641689052,
+                    "y": -0.34194166039523005,
+                    "z": -1.6250959394835705
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.1314028203614468,
+                    "y": 0.00012719763788401946,
+                    "z": -3.09683284131578
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.1449814451258161,
+                    "y": -4.531100931501261e-15,
+                    "z": -4.0854639791996426e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.919420265646801,
+                    "y": -0.6293009686586231,
+                    "z": -0.33644463288427795
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 0.8724566095821669,
+                    "y": 0.07281909927690772,
+                    "z": -0.09623064818379849
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.018705202105047884,
+                    "y": -0.16182075394314868,
+                    "z": -0.03778476360908917
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.03576739665043481,
+                    "y": -0.07639510884569238,
+                    "z": 0.05731643314484564
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.4648177163437303,
+                    "y": -0.002634100597289115,
+                    "z": -0.01009970338434427
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116422723389,
+                    "y": 0.34169061631971925,
+                    "z": 1.626716398158957
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -0.5743166906912167,
+                    "y": 0.0000023506735266549395,
+                    "z": 3.086068199355442
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326723,
+                    "y": -6.703421011556026e-16,
+                    "z": 7.548386557554662e-17
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044934547924e-7,
+                    "y": 4.770559050510021e-16,
+                    "z": -2.2497518884678947e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037499383208674e-7,
+                    "y": -8.673741174387617e-17,
+                    "z": 1.423036174350196e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 1.7710941638424944,
+              "y": 0.33007533902223507,
+              "z": 0
+            },
+            "74E724B9-883D-4136-B0F1-ED7728EAFD55": {
+              "displayName": "Character 3",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "74E724B9-883D-4136-B0F1-ED7728EAFD55",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.168221043981972,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.3098087227195863e-10,
+                    "y": -1.4033843531931337e-8,
+                    "z": -1.2238914932799968e-9
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 8.673743453913421e-17,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.000313415566343,
+                    "y": 0.1978071884773491,
+                    "z": -0.0038139676779544835
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.0818237112596094,
+                    "y": -0.04843830640913012,
+                    "z": 0.12718805515666112
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.005451285588847386,
+                    "y": 0.1156758139109994,
+                    "z": 0.8490564681402815
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.034019083533908236,
+                    "y": 0.07116033672437991,
+                    "z": -0.05372408243861915
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.6504501961604976,
+                    "y": 0.004902705561673994,
+                    "z": 0.0010631326637702474
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529165476210163,
+                    "y": -0.3419415737335918,
+                    "z": -1.625096090669418
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.575069670703953,
+                    "y": 0.0001273383691951735,
+                    "z": -3.115200033936838
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.14498144512581987,
+                    "y": -1.2171156868936934e-14,
+                    "z": -1.0035277678415109e-15
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.962232185772228,
+                    "y": 0.4494100170420827,
+                    "z": 0.41038490450921317
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.21172261530205,
+                    "y": 0.048242169974170857,
+                    "z": -0.1460263203953337
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.008246173774446156,
+                    "y": -0.16243173612887282,
+                    "z": -0.012030087685324074
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.03576737897392974,
+                    "y": -0.0763951251113057,
+                    "z": 0.05731641422096012
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.32074393573009435,
+                    "y": -0.0012278574294536909,
+                    "z": 0.003861354282703613
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.552411541377275,
+                    "y": 0.34169057718063744,
+                    "z": 1.6267163166993444
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -0.0937104752477252,
+                    "y": 0.0000023897966137334114,
+                    "z": 3.1285529768305778
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032327062,
+                    "y": -1.142370772372945e-15,
+                    "z": 7.220704202685797e-16
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044482429048e-7,
+                    "y": 1.3986412011017685e-15,
+                    "z": -1.0313622137807007e-15
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037498882299986e-7,
+                    "y": -5.095823792875305e-16,
+                    "z": 3.0358110251570207e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -0.3666519386310858,
+              "y": 0.0666065008634309,
+              "z": 0
+            },
+            "7FFAAC61-1D60-4841-A3F5-7892EB075B26": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "7FFAAC61-1D60-4841-A3F5-7892EB075B26",
+              "model": "tree-bushy",
+              "rotation": {
+                "x": 0,
+                "y": -0.0019431525886228634,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 1.612028584261731,
+              "y": -5.711347222896082,
+              "z": 0
+            },
+            "EFF5FECB-BCA2-4410-A840-63AF80F431FF": {
+              "displayName": "Character 4",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "EFF5FECB-BCA2-4410-A840-63AF80F431FF",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.21552005481523753,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -1.1441749638798765e-10,
+                    "y": -6.445300926261336e-9,
+                    "z": -4.495082641618694e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0525318722786514,
+                    "y": -0.2719054025750598,
+                    "z": -0.273876844806588
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 0.7359113295122908,
+                    "y": -0.07278760313858888,
+                    "z": 0.10205339343233429
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.00018058514119752346,
+                    "y": 0.03122571302742782,
+                    "z": 0.0002652336663806532
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03401913563763593,
+                    "y": 0.0711603810820508,
+                    "z": -0.05372408303607159
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.025617140630819598,
+                    "y": -0.0002440926332995521,
+                    "z": -0.0006140904550260607
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529167723320099,
+                    "y": -0.3419416577748248,
+                    "z": -1.6250959323674237
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.294491642486484,
+                    "y": 0.00012704754031126814,
+                    "z": -3.0815230411128733
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.1449814451258166,
+                    "y": -4.661981289203813e-15,
+                    "z": -5.598514792653012e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.6246027069752216,
+                    "y": -0.8391497488582391,
+                    "z": -0.6767369078283052
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.0412090393904498,
+                    "y": 0.07693466809550742,
+                    "z": -0.13055769145022536
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.0014811735707625526,
+                    "y": -0.16232018569881784,
+                    "z": -0.002148525728724982
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.03576738151700279,
+                    "y": -0.07639511379757301,
+                    "z": 0.057316420312011604
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.007243328519072927,
+                    "y": 0.0000780725691502425,
+                    "z": -0.017097711111583848
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116424613599,
+                    "y": 0.3416906162840973,
+                    "z": 1.6267163970765186
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.05027213705076421,
+                    "y": 0.000002379807898709326,
+                    "z": 3.1172517691140365
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326898,
+                    "y": -5.824769864777059e-16,
+                    "z": 2.16345175318803e-16
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.341104478384163e-7,
+                    "y": 7.372682068508428e-16,
+                    "z": -1.9786972310471612e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037499245512987e-7,
+                    "y": -3.035809883223155e-16,
+                    "z": 2.0329091083097945e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.4674900833448099,
+              "y": 1.1336951468643044,
+              "z": 0
+            },
+            "F4CD3F75-B273-4AC6-9789-2F32C9F2E291": {
+              "displayName": "Character 5",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "F4CD3F75-B273-4AC6-9789-2F32C9F2E291",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.14136669638868832,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -1.4177547657636172e-10,
+                    "y": -9.200999722793821e-9,
+                    "z": -9.286129120346383e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": -6.505307590435069e-17,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.563692814415728,
+                    "y": 0.8831021641999078,
+                    "z": 0.7255825779782704
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 0.8821729460282026,
+                    "y": -0.05016257560447371,
+                    "z": 0.12073227403456287
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.002513712399963076,
+                    "y": 0.031224879447196718,
+                    "z": -0.00015857991556684426
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03401914738000301,
+                    "y": 0.07116038910606579,
+                    "z": -0.053724083996494844
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.41454500291809543,
+                    "y": 0.0018854664321221186,
+                    "z": 0.001422640859323802
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168014930115,
+                    "y": -0.3419416491593414,
+                    "z": -1.6250957275295177
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.538499238956469,
+                    "y": 0.00012731126202132213,
+                    "z": -3.111183437363118
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.14498144512581593,
+                    "y": -9.540153843870762e-15,
+                    "z": -6.446983137730286e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.7859591858306672,
+                    "y": 0.5227536195975233,
+                    "z": 0.640171852228098
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.2800280938294628,
+                    "y": 0.06320962547995564,
+                    "z": -0.1376326852804891
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.0000776749895505873,
+                    "y": -0.16232201086962084,
+                    "z": -0.000044998930707498156
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.035767377281586014,
+                    "y": -0.0763951247835798,
+                    "z": 0.0573164149661857
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.2755677171070296,
+                    "y": -0.0008892297685354718,
+                    "z": 0.0035857816873313747
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.552411581288644,
+                    "y": 0.34169059304250854,
+                    "z": 1.6267163508560154
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.02025444911387666,
+                    "y": 0.0000023749257120431373,
+                    "z": 3.1118496418423467
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326815,
+                    "y": -6.321651675172301e-16,
+                    "z": 3.002191427499438e-16
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044912863568e-7,
+                    "y": 6.613729702591104e-16,
+                    "z": -4.757005732020534e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.203749933983995e-7,
+                    "y": 4.336875135390529e-17,
+                    "z": 2.127777621566874e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -1.4050696681866022,
+              "y": -0.9174094963505425,
+              "z": 0
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      },
+      "action": "ROTOR SQUAD members whipping dust into the air by the footsteps. Firmly held in each member's hand is a toolbox.",
+      "notes": "(MCU) Waist-level shot of people marching. Focus on the badge and suitcase surround over to the right. Dive into a building sideways to break the image.",
+      "lineMileage": 0
+    },
+    {
+      "uid": "PRE6U",
+      "url": "board-5-PRE6U.png",
+      "newShot": false,
+      "lastEdited": 1571352568577,
+      "layers": {
+        "shot-generator": {
+          "url": "board-5-PRE6U-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-5-PRE6U-shot-generator-thumbnail.jpg"
+        }
+      },
+      "shot": "2B",
+      "number": 5,
+      "time": 8000,
+      "sg": {
+        "version": "1.14.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "40918F8B-B46E-4709-B9C6-27DF5BCF497B": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "40918F8B-B46E-4709-B9C6-27DF5BCF497B",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.14550709147780005,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.4437043741483613e-11,
+                    "y": -1.5674043735188871e-9,
+                    "z": -1.5449401576642332e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379017966343,
+                    "y": -0.11931128690713848,
+                    "z": -0.1776163828469456
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.0677215903462463,
+                    "y": -0.07016375408230822,
+                    "z": 0.126716491643635
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392416897849434,
+                    "y": 0.06624830000311434,
+                    "z": 0.2987948025678505
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": 0.13096553396523117,
+                    "y": 0.06940182816636055,
+                    "z": -0.09006040471562371
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.01736562387173039,
+                    "y": -0.000253038693587159,
+                    "z": 0.0170784002528732
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168768249795,
+                    "y": -0.3419417014795543,
+                    "z": -1.6250958343266044
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": 0.04421475593033908,
+                    "y": 0.00012735137459508658,
+                    "z": -3.1172439644623426
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.14498144512581623,
+                    "y": -1.514734775144357e-15,
+                    "z": -1.46299190127226e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.0572280722221004,
+                    "y": 0.13045088998020857,
+                    "z": 0.15704636000820377
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 0.4933183075989712,
+                    "y": 0.0490047311738097,
+                    "z": -0.137206408446869
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067956535479544,
+                    "y": -0.1936847814419063,
+                    "z": -0.27250729784138067
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": 0.1113391635878989,
+                    "y": -0.07545093885791128,
+                    "z": 0.08236303300959155
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.00010518423989612306,
+                    "y": 0.00007557252101267338,
+                    "z": 0.0000010611674364557805
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116824380847,
+                    "y": 0.34169063197312344,
+                    "z": 1.6267164308034827
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -0.49107472185503914,
+                    "y": 0.0000023868341046457485,
+                    "z": 3.1251650223681637
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326723,
+                    "y": -1.8920244359429476e-16,
+                    "z": 5.3890473719657957e-17
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044963821803e-7,
+                    "y": 1.8431705521151742e-16,
+                    "z": -1.0164541874112677e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037499302976544e-7,
+                    "y": -1.0842173455754008e-17,
+                    "z": 3.6592356932978806e-17
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 2.6813517172338583,
+              "y": -0.5207211966264786,
+              "z": 0
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 7.625462546254638,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": -0.9826497352816386,
+              "tilt": 0.006174847621060601,
+              "type": "camera",
+              "x": -11.587365152957867,
+              "y": 7.6974910369821155,
+              "z": 0.7000000000000027
+            },
+            "747BEB2C-7204-4EC9-B576-ACDF8683F2D5": {
+              "displayName": "Character 2",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "747BEB2C-7204-4EC9-B576-ACDF8683F2D5",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.16765236568679714,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -8.628563841706181e-11,
+                    "y": -5.248604801409725e-9,
+                    "z": -4.590720048198385e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 2.168435863478355e-16,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708378558387097,
+                    "y": -0.11931110379282106,
+                    "z": -0.1776164374041923
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.4949868837795024,
+                    "y": -0.0653972929479585,
+                    "z": 0.12329464479528879
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392423348903563,
+                    "y": 0.0662481660511029,
+                    "z": 0.2987948738727458
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": 0.13096552569724934,
+                    "y": 0.06940182372689473,
+                    "z": -0.09006039612556974
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.6203283018109635,
+                    "y": 0.004461692719892881,
+                    "z": -0.00348642722470016
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529167641689052,
+                    "y": -0.34194166039523005,
+                    "z": -1.6250959394835705
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.1314028203614468,
+                    "y": 0.00012719763788401946,
+                    "z": -3.09683284131578
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.1449814451258161,
+                    "y": -4.531100931501261e-15,
+                    "z": -4.0854639791996426e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.919420265646801,
+                    "y": -0.6293009686586231,
+                    "z": -0.33644463288427795
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 0.8724566095821669,
+                    "y": 0.07281909927690772,
+                    "z": -0.09623064818379849
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.018705202105047884,
+                    "y": -0.16182075394314868,
+                    "z": -0.03778476360908917
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.03576739665043481,
+                    "y": -0.07639510884569238,
+                    "z": 0.05731643314484564
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.4648177163437303,
+                    "y": -0.002634100597289115,
+                    "z": -0.01009970338434427
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116422723389,
+                    "y": 0.34169061631971925,
+                    "z": 1.626716398158957
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -0.5743166906912167,
+                    "y": 0.0000023506735266549395,
+                    "z": 3.086068199355442
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326723,
+                    "y": -6.703421011556026e-16,
+                    "z": 7.548386557554662e-17
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044934547924e-7,
+                    "y": 4.770559050510021e-16,
+                    "z": -2.2497518884678947e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037499383208674e-7,
+                    "y": -8.673741174387617e-17,
+                    "z": 1.423036174350196e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 1.7710941638424944,
+              "y": 0.33007533902223507,
+              "z": 0
+            },
+            "74E724B9-883D-4136-B0F1-ED7728EAFD55": {
+              "displayName": "Character 3",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "74E724B9-883D-4136-B0F1-ED7728EAFD55",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.168221043981972,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.3098087227195863e-10,
+                    "y": -1.4033843531931337e-8,
+                    "z": -1.2238914932799968e-9
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 8.673743453913421e-17,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.000313415566343,
+                    "y": 0.1978071884773491,
+                    "z": -0.0038139676779544835
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.0818237112596094,
+                    "y": -0.04843830640913012,
+                    "z": 0.12718805515666112
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.005451285588847386,
+                    "y": 0.1156758139109994,
+                    "z": 0.8490564681402815
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.034019083533908236,
+                    "y": 0.07116033672437991,
+                    "z": -0.05372408243861915
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.6504501961604976,
+                    "y": 0.004902705561673994,
+                    "z": 0.0010631326637702474
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529165476210163,
+                    "y": -0.3419415737335918,
+                    "z": -1.625096090669418
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.575069670703953,
+                    "y": 0.0001273383691951735,
+                    "z": -3.115200033936838
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.14498144512581987,
+                    "y": -1.2171156868936934e-14,
+                    "z": -1.0035277678415109e-15
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.962232185772228,
+                    "y": 0.4494100170420827,
+                    "z": 0.41038490450921317
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.21172261530205,
+                    "y": 0.048242169974170857,
+                    "z": -0.1460263203953337
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.008246173774446156,
+                    "y": -0.16243173612887282,
+                    "z": -0.012030087685324074
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.03576737897392974,
+                    "y": -0.0763951251113057,
+                    "z": 0.05731641422096012
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.32074393573009435,
+                    "y": -0.0012278574294536909,
+                    "z": 0.003861354282703613
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.552411541377275,
+                    "y": 0.34169057718063744,
+                    "z": 1.6267163166993444
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -0.0937104752477252,
+                    "y": 0.0000023897966137334114,
+                    "z": 3.1285529768305778
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032327062,
+                    "y": -1.142370772372945e-15,
+                    "z": 7.220704202685797e-16
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044482429048e-7,
+                    "y": 1.3986412011017685e-15,
+                    "z": -1.0313622137807007e-15
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037498882299986e-7,
+                    "y": -5.095823792875305e-16,
+                    "z": 3.0358110251570207e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -0.3666519386310858,
+              "y": 0.0666065008634309,
+              "z": 0
+            },
+            "7FFAAC61-1D60-4841-A3F5-7892EB075B26": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "7FFAAC61-1D60-4841-A3F5-7892EB075B26",
+              "model": "tree-bushy",
+              "rotation": {
+                "x": 0,
+                "y": -0.0019431525886228634,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 1.612028584261731,
+              "y": -5.711347222896082,
+              "z": 0
+            },
+            "EFF5FECB-BCA2-4410-A840-63AF80F431FF": {
+              "displayName": "Character 4",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "EFF5FECB-BCA2-4410-A840-63AF80F431FF",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.21552005481523753,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -1.1441749638798765e-10,
+                    "y": -6.445300926261336e-9,
+                    "z": -4.495082641618694e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0525318722786514,
+                    "y": -0.2719054025750598,
+                    "z": -0.273876844806588
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 0.7359113295122908,
+                    "y": -0.07278760313858888,
+                    "z": 0.10205339343233429
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.00018058514119752346,
+                    "y": 0.03122571302742782,
+                    "z": 0.0002652336663806532
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03401913563763593,
+                    "y": 0.0711603810820508,
+                    "z": -0.05372408303607159
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.025617140630819598,
+                    "y": -0.0002440926332995521,
+                    "z": -0.0006140904550260607
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529167723320099,
+                    "y": -0.3419416577748248,
+                    "z": -1.6250959323674237
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.294491642486484,
+                    "y": 0.00012704754031126814,
+                    "z": -3.0815230411128733
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.1449814451258166,
+                    "y": -4.661981289203813e-15,
+                    "z": -5.598514792653012e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.6246027069752216,
+                    "y": -0.8391497488582391,
+                    "z": -0.6767369078283052
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.0412090393904498,
+                    "y": 0.07693466809550742,
+                    "z": -0.13055769145022536
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.0014811735707625526,
+                    "y": -0.16232018569881784,
+                    "z": -0.002148525728724982
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.03576738151700279,
+                    "y": -0.07639511379757301,
+                    "z": 0.057316420312011604
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.007243328519072927,
+                    "y": 0.0000780725691502425,
+                    "z": -0.017097711111583848
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116424613599,
+                    "y": 0.3416906162840973,
+                    "z": 1.6267163970765186
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.05027213705076421,
+                    "y": 0.000002379807898709326,
+                    "z": 3.1172517691140365
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326898,
+                    "y": -5.824769864777059e-16,
+                    "z": 2.16345175318803e-16
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.341104478384163e-7,
+                    "y": 7.372682068508428e-16,
+                    "z": -1.9786972310471612e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037499245512987e-7,
+                    "y": -3.035809883223155e-16,
+                    "z": 2.0329091083097945e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.4674900833448099,
+              "y": 1.1336951468643044,
+              "z": 0
+            },
+            "F4CD3F75-B273-4AC6-9789-2F32C9F2E291": {
+              "displayName": "Character 5",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "F4CD3F75-B273-4AC6-9789-2F32C9F2E291",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.14136669638868832,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -1.4177547657636172e-10,
+                    "y": -9.200999722793821e-9,
+                    "z": -9.286129120346383e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": -6.505307590435069e-17,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.563692814415728,
+                    "y": 0.8831021641999078,
+                    "z": 0.7255825779782704
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 0.8821729460282026,
+                    "y": -0.05016257560447371,
+                    "z": 0.12073227403456287
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.002513712399963076,
+                    "y": 0.031224879447196718,
+                    "z": -0.00015857991556684426
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03401914738000301,
+                    "y": 0.07116038910606579,
+                    "z": -0.053724083996494844
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.41454500291809543,
+                    "y": 0.0018854664321221186,
+                    "z": 0.001422640859323802
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168014930115,
+                    "y": -0.3419416491593414,
+                    "z": -1.6250957275295177
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.538499238956469,
+                    "y": 0.00012731126202132213,
+                    "z": -3.111183437363118
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.14498144512581593,
+                    "y": -9.540153843870762e-15,
+                    "z": -6.446983137730286e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.7859591858306672,
+                    "y": 0.5227536195975233,
+                    "z": 0.640171852228098
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.2800280938294628,
+                    "y": 0.06320962547995564,
+                    "z": -0.1376326852804891
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.0000776749895505873,
+                    "y": -0.16232201086962084,
+                    "z": -0.000044998930707498156
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.035767377281586014,
+                    "y": -0.0763951247835798,
+                    "z": 0.0573164149661857
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.2755677171070296,
+                    "y": -0.0008892297685354718,
+                    "z": 0.0035857816873313747
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.552411581288644,
+                    "y": 0.34169059304250854,
+                    "z": 1.6267163508560154
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.02025444911387666,
+                    "y": 0.0000023749257120431373,
+                    "z": 3.1118496418423467
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326815,
+                    "y": -6.321651675172301e-16,
+                    "z": 3.002191427499438e-16
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044912863568e-7,
+                    "y": 6.613729702591104e-16,
+                    "z": -4.757005732020534e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.203749933983995e-7,
+                    "y": 4.336875135390529e-17,
+                    "z": 2.127777621566874e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -1.4050696681866022,
+              "y": -0.9174094963505425,
+              "z": 0
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": "HEIZG",
+      "url": "board-6-HEIZG.png",
+      "newShot": false,
+      "lastEdited": 1571352743329,
+      "layers": {
+        "shot-generator": {
+          "url": "board-6-HEIZG-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-6-HEIZG-shot-generator-thumbnail.jpg"
+        }
+      },
+      "shot": "2C",
+      "number": 6,
+      "time": 10000,
+      "sg": {
+        "version": "1.14.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "40918F8B-B46E-4709-B9C6-27DF5BCF497B": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "40918F8B-B46E-4709-B9C6-27DF5BCF497B",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.14550709147780005,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.4437043741483613e-11,
+                    "y": -1.5674043735188871e-9,
+                    "z": -1.5449401576642332e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379017966343,
+                    "y": -0.11931128690713848,
+                    "z": -0.1776163828469456
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.0677215903462463,
+                    "y": -0.07016375408230822,
+                    "z": 0.126716491643635
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392416897849434,
+                    "y": 0.06624830000311434,
+                    "z": 0.2987948025678505
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": 0.13096553396523117,
+                    "y": 0.06940182816636055,
+                    "z": -0.09006040471562371
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.01736562387173039,
+                    "y": -0.000253038693587159,
+                    "z": 0.0170784002528732
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168768249795,
+                    "y": -0.3419417014795543,
+                    "z": -1.6250958343266044
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": 0.04421475593033908,
+                    "y": 0.00012735137459508658,
+                    "z": -3.1172439644623426
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.14498144512581623,
+                    "y": -1.514734775144357e-15,
+                    "z": -1.46299190127226e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.0572280722221004,
+                    "y": 0.13045088998020857,
+                    "z": 0.15704636000820377
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 0.4933183075989712,
+                    "y": 0.0490047311738097,
+                    "z": -0.137206408446869
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067956535479544,
+                    "y": -0.1936847814419063,
+                    "z": -0.27250729784138067
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": 0.1113391635878989,
+                    "y": -0.07545093885791128,
+                    "z": 0.08236303300959155
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.00010518423989612306,
+                    "y": 0.00007557252101267338,
+                    "z": 0.0000010611674364557805
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116824380847,
+                    "y": 0.34169063197312344,
+                    "z": 1.6267164308034827
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -0.49107472185503914,
+                    "y": 0.0000023868341046457485,
+                    "z": 3.1251650223681637
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326723,
+                    "y": -1.8920244359429476e-16,
+                    "z": 5.3890473719657957e-17
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044963821803e-7,
+                    "y": 1.8431705521151742e-16,
+                    "z": -1.0164541874112677e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037499302976544e-7,
+                    "y": -1.0842173455754008e-17,
+                    "z": 3.6592356932978806e-17
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 2.6813517172338583,
+              "y": -0.5207211966264786,
+              "z": 0
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 7.625462546254638,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": -0.9826497352816386,
+              "tilt": 0.006174847621060601,
+              "type": "camera",
+              "x": -14.755425395721963,
+              "y": 11.193949439375752,
+              "z": 0.7000000000000027
+            },
+            "747BEB2C-7204-4EC9-B576-ACDF8683F2D5": {
+              "displayName": "Character 2",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "747BEB2C-7204-4EC9-B576-ACDF8683F2D5",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.16765236568679714,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -8.628563841706181e-11,
+                    "y": -5.248604801409725e-9,
+                    "z": -4.590720048198385e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 2.168435863478355e-16,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708378558387097,
+                    "y": -0.11931110379282106,
+                    "z": -0.1776164374041923
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.4949868837795024,
+                    "y": -0.0653972929479585,
+                    "z": 0.12329464479528879
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392423348903563,
+                    "y": 0.0662481660511029,
+                    "z": 0.2987948738727458
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": 0.13096552569724934,
+                    "y": 0.06940182372689473,
+                    "z": -0.09006039612556974
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.6203283018109635,
+                    "y": 0.004461692719892881,
+                    "z": -0.00348642722470016
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529167641689052,
+                    "y": -0.34194166039523005,
+                    "z": -1.6250959394835705
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.1314028203614468,
+                    "y": 0.00012719763788401946,
+                    "z": -3.09683284131578
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.1449814451258161,
+                    "y": -4.531100931501261e-15,
+                    "z": -4.0854639791996426e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.919420265646801,
+                    "y": -0.6293009686586231,
+                    "z": -0.33644463288427795
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 0.8724566095821669,
+                    "y": 0.07281909927690772,
+                    "z": -0.09623064818379849
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.018705202105047884,
+                    "y": -0.16182075394314868,
+                    "z": -0.03778476360908917
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.03576739665043481,
+                    "y": -0.07639510884569238,
+                    "z": 0.05731643314484564
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.4648177163437303,
+                    "y": -0.002634100597289115,
+                    "z": -0.01009970338434427
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116422723389,
+                    "y": 0.34169061631971925,
+                    "z": 1.626716398158957
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -0.5743166906912167,
+                    "y": 0.0000023506735266549395,
+                    "z": 3.086068199355442
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326723,
+                    "y": -6.703421011556026e-16,
+                    "z": 7.548386557554662e-17
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044934547924e-7,
+                    "y": 4.770559050510021e-16,
+                    "z": -2.2497518884678947e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037499383208674e-7,
+                    "y": -8.673741174387617e-17,
+                    "z": 1.423036174350196e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 1.7710941638424944,
+              "y": 0.33007533902223507,
+              "z": 0
+            },
+            "74E724B9-883D-4136-B0F1-ED7728EAFD55": {
+              "displayName": "Character 3",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "74E724B9-883D-4136-B0F1-ED7728EAFD55",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.168221043981972,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.3098087227195863e-10,
+                    "y": -1.4033843531931337e-8,
+                    "z": -1.2238914932799968e-9
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 8.673743453913421e-17,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.000313415566343,
+                    "y": 0.1978071884773491,
+                    "z": -0.0038139676779544835
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.0818237112596094,
+                    "y": -0.04843830640913012,
+                    "z": 0.12718805515666112
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.005451285588847386,
+                    "y": 0.1156758139109994,
+                    "z": 0.8490564681402815
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.034019083533908236,
+                    "y": 0.07116033672437991,
+                    "z": -0.05372408243861915
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.6504501961604976,
+                    "y": 0.004902705561673994,
+                    "z": 0.0010631326637702474
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529165476210163,
+                    "y": -0.3419415737335918,
+                    "z": -1.625096090669418
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.575069670703953,
+                    "y": 0.0001273383691951735,
+                    "z": -3.115200033936838
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.14498144512581987,
+                    "y": -1.2171156868936934e-14,
+                    "z": -1.0035277678415109e-15
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.962232185772228,
+                    "y": 0.4494100170420827,
+                    "z": 0.41038490450921317
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.21172261530205,
+                    "y": 0.048242169974170857,
+                    "z": -0.1460263203953337
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.008246173774446156,
+                    "y": -0.16243173612887282,
+                    "z": -0.012030087685324074
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.03576737897392974,
+                    "y": -0.0763951251113057,
+                    "z": 0.05731641422096012
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.32074393573009435,
+                    "y": -0.0012278574294536909,
+                    "z": 0.003861354282703613
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.552411541377275,
+                    "y": 0.34169057718063744,
+                    "z": 1.6267163166993444
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -0.0937104752477252,
+                    "y": 0.0000023897966137334114,
+                    "z": 3.1285529768305778
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032327062,
+                    "y": -1.142370772372945e-15,
+                    "z": 7.220704202685797e-16
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044482429048e-7,
+                    "y": 1.3986412011017685e-15,
+                    "z": -1.0313622137807007e-15
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037498882299986e-7,
+                    "y": -5.095823792875305e-16,
+                    "z": 3.0358110251570207e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -0.3666519386310858,
+              "y": 0.0666065008634309,
+              "z": 0
+            },
+            "7FFAAC61-1D60-4841-A3F5-7892EB075B26": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "7FFAAC61-1D60-4841-A3F5-7892EB075B26",
+              "model": "tree-bushy",
+              "rotation": {
+                "x": 0,
+                "y": -0.0019431525886228634,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 1.612028584261731,
+              "y": -5.711347222896082,
+              "z": 0
+            },
+            "B65AE3CA-CC24-416D-BBD2-27BAC290C0B6": {
+              "depth": 4.000000000000001,
+              "displayName": "Object 2",
+              "height": 5,
+              "id": "B65AE3CA-CC24-416D-BBD2-27BAC290C0B6",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 0.002369806306199545,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 5,
+              "x": -0.272667597718258,
+              "y": 4.973615550096479,
+              "z": 0
+            },
+            "EFF5FECB-BCA2-4410-A840-63AF80F431FF": {
+              "displayName": "Character 4",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "EFF5FECB-BCA2-4410-A840-63AF80F431FF",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.21552005481523753,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -1.1441749638798765e-10,
+                    "y": -6.445300926261336e-9,
+                    "z": -4.495082641618694e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0525318722786514,
+                    "y": -0.2719054025750598,
+                    "z": -0.273876844806588
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 0.7359113295122908,
+                    "y": -0.07278760313858888,
+                    "z": 0.10205339343233429
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.00018058514119752346,
+                    "y": 0.03122571302742782,
+                    "z": 0.0002652336663806532
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03401913563763593,
+                    "y": 0.0711603810820508,
+                    "z": -0.05372408303607159
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.025617140630819598,
+                    "y": -0.0002440926332995521,
+                    "z": -0.0006140904550260607
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529167723320099,
+                    "y": -0.3419416577748248,
+                    "z": -1.6250959323674237
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.294491642486484,
+                    "y": 0.00012704754031126814,
+                    "z": -3.0815230411128733
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.1449814451258166,
+                    "y": -4.661981289203813e-15,
+                    "z": -5.598514792653012e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.6246027069752216,
+                    "y": -0.8391497488582391,
+                    "z": -0.6767369078283052
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.0412090393904498,
+                    "y": 0.07693466809550742,
+                    "z": -0.13055769145022536
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.0014811735707625526,
+                    "y": -0.16232018569881784,
+                    "z": -0.002148525728724982
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.03576738151700279,
+                    "y": -0.07639511379757301,
+                    "z": 0.057316420312011604
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.007243328519072927,
+                    "y": 0.0000780725691502425,
+                    "z": -0.017097711111583848
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116424613599,
+                    "y": 0.3416906162840973,
+                    "z": 1.6267163970765186
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.05027213705076421,
+                    "y": 0.000002379807898709326,
+                    "z": 3.1172517691140365
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326898,
+                    "y": -5.824769864777059e-16,
+                    "z": 2.16345175318803e-16
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.341104478384163e-7,
+                    "y": 7.372682068508428e-16,
+                    "z": -1.9786972310471612e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037499245512987e-7,
+                    "y": -3.035809883223155e-16,
+                    "z": 2.0329091083097945e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.4674900833448099,
+              "y": 1.1336951468643044,
+              "z": 0
+            },
+            "F4CD3F75-B273-4AC6-9789-2F32C9F2E291": {
+              "displayName": "Character 5",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "F4CD3F75-B273-4AC6-9789-2F32C9F2E291",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.14136669638868832,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -1.4177547657636172e-10,
+                    "y": -9.200999722793821e-9,
+                    "z": -9.286129120346383e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": -6.505307590435069e-17,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.563692814415728,
+                    "y": 0.8831021641999078,
+                    "z": 0.7255825779782704
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 0.8821729460282026,
+                    "y": -0.05016257560447371,
+                    "z": 0.12073227403456287
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.002513712399963076,
+                    "y": 0.031224879447196718,
+                    "z": -0.00015857991556684426
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03401914738000301,
+                    "y": 0.07116038910606579,
+                    "z": -0.053724083996494844
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.41454500291809543,
+                    "y": 0.0018854664321221186,
+                    "z": 0.001422640859323802
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168014930115,
+                    "y": -0.3419416491593414,
+                    "z": -1.6250957275295177
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.538499238956469,
+                    "y": 0.00012731126202132213,
+                    "z": -3.111183437363118
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.14498144512581593,
+                    "y": -9.540153843870762e-15,
+                    "z": -6.446983137730286e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.7859591858306672,
+                    "y": 0.5227536195975233,
+                    "z": 0.640171852228098
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.2800280938294628,
+                    "y": 0.06320962547995564,
+                    "z": -0.1376326852804891
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.0000776749895505873,
+                    "y": -0.16232201086962084,
+                    "z": -0.000044998930707498156
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.035767377281586014,
+                    "y": -0.0763951247835798,
+                    "z": 0.0573164149661857
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.2755677171070296,
+                    "y": -0.0008892297685354718,
+                    "z": 0.0035857816873313747
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.552411581288644,
+                    "y": 0.34169059304250854,
+                    "z": 1.6267163508560154
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.02025444911387666,
+                    "y": 0.0000023749257120431373,
+                    "z": 3.1118496418423467
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326815,
+                    "y": -6.321651675172301e-16,
+                    "z": 3.002191427499438e-16
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044912863568e-7,
+                    "y": 6.613729702591104e-16,
+                    "z": -4.757005732020534e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.203749933983995e-7,
+                    "y": 4.336875135390529e-17,
+                    "z": 2.127777621566874e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -1.4050696681866022,
+              "y": -0.9174094963505425,
+              "z": 0
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": "3KZBP",
+      "url": "board-7-3KZBP.png",
+      "newShot": true,
+      "lastEdited": 1571357583678,
+      "layers": {
+        "shot-generator": {
+          "url": "board-7-3KZBP-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-7-3KZBP-shot-generator-thumbnail.jpg"
+        },
+        "reference": {
+          "url": "board-7-3KZBP-reference.png",
+          "opacity": 1
+        },
+        "fill": {
+          "url": "board-7-3KZBP-fill.png"
+        },
+        "tone": {
+          "url": "board-7-3KZBP-tone.png"
+        },
+        "pencil": {
+          "url": "board-7-3KZBP-pencil.png"
+        },
+        "ink": {
+          "url": "board-7-3KZBP-ink.png"
+        },
+        "notes": {
+          "url": "board-7-3KZBP-notes.png"
+        }
+      },
+      "shot": "3A",
+      "number": 7,
+      "time": 12000,
+      "sg": {
+        "version": "1.14.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "01687A5B-46C5-4201-ABFC-964F47CA4944": {
+              "displayName": "Character 4",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "01687A5B-46C5-4201-ABFC-964F47CA4944",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.10981395866282552,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": 0.45151765741239214,
+                    "y": -0.01598705097580048,
+                    "z": -0.0422619860135357
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.10406895348804562,
+                    "y": 0.35393302872756277,
+                    "z": 0.47737313665050696
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.1375707801667843,
+                    "y": -0.09001895359575153,
+                    "z": 0.09784083987623045
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": -0.16592803463671432,
+                    "y": -0.0909740527470078,
+                    "z": 1.0433796094145134
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.034019110190634,
+                    "y": 0.07116054108539271,
+                    "z": -0.05372397731087361
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.3070082771638215,
+                    "y": 0.0009168438367557494,
+                    "z": 0.0007296648811639273
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.552916752765895,
+                    "y": -0.3419413189296913,
+                    "z": -1.6250965444913787
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.17362106896173404,
+                    "y": 0.00012688368245540994,
+                    "z": -3.0674804418838506
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": -0.3196199241141107,
+                    "y": -0.03231933564505636,
+                    "z": 0.11387680297781261
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.44943127148884127,
+                    "y": -1.0440693265523635,
+                    "z": -0.9576182001135514
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.129070534708238,
+                    "y": 0.03709744735531044,
+                    "z": -0.155355621096953
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.6891309691182167,
+                    "y": 0.43940160611204243,
+                    "z": -0.662079611379213
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.03576737464887351,
+                    "y": -0.0763951181148299,
+                    "z": 0.05731640695984037
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.3227861496984331,
+                    "y": -0.0012425852877649116,
+                    "z": 0.004595117103248979
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116381962012,
+                    "y": 0.341690401463216,
+                    "z": 1.6267169008499747
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -0.17880344249832336,
+                    "y": 0.000002401599418917128,
+                    "z": -3.1408090056485545
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": 0.03715838479101106,
+                    "y": 1.945508654079952e-10,
+                    "z": 0.0059377027778662085
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": 0.043279591856268174,
+                    "y": 4.6443599202475143e-10,
+                    "z": 0.010965692153531227
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.20511884271262215,
+                    "y": -0.002092276835860692,
+                    "z": -0.13615448483649045
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -1.8283508084605775,
+              "y": 2.800042642186234,
+              "z": -0.06806604526193538
+            },
+            "14E45D1D-91F5-4BC5-82A3-4B591A3CA591": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "14E45D1D-91F5-4BC5-82A3-4B591A3CA591",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.07054928372277441,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 2.6170161022223892,
+              "y": 2.8385739620678914,
+              "z": 0
+            },
+            "1E96C4A6-1A99-416C-8DC3-D22CBA5FF09D": {
+              "displayName": "Character 2",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "1E96C4A6-1A99-416C-8DC3-D22CBA5FF09D",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.17642013907417514,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": 0.7349424756397802,
+                    "y": 0.030597442695937192,
+                    "z": 0.017614474622046943
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.12148589399831321,
+                    "y": 0.3260011411818909,
+                    "z": 0.34798264522099676
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.071578080987624,
+                    "y": -0.062226506091362405,
+                    "z": 0.13081169744144674
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": -0.16203872038526818,
+                    "y": -0.11232816099411619,
+                    "z": 1.2536387537461493
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.034019055406247285,
+                    "y": 0.07116040054186093,
+                    "z": -0.053724110797468305
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.024359459209915637,
+                    "y": -0.0002448770037796979,
+                    "z": -0.0003303516547841904
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168781900695,
+                    "y": -0.34194165347751854,
+                    "z": -1.6250959525655533
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": 0.0408016309673638,
+                    "y": 0.0001272938524987761,
+                    "z": -3.108751694086896
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": -0.26832612486177765,
+                    "y": 0.0021900589711174724,
+                    "z": -0.007697326106872898
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.7278743127970667,
+                    "y": -0.981455635256075,
+                    "z": -0.6721597494705926
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.0473269701815855,
+                    "y": 0.06913723914432057,
+                    "z": -0.13485579313688761
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.5357035786429218,
+                    "y": 0.19777048849868192,
+                    "z": -0.612378606349183
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.0357673728144282,
+                    "y": -0.07639511062847812,
+                    "z": 0.057316405388155606
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.018566679364521343,
+                    "y": 0.00007125016729599436,
+                    "z": 0.0002584062980434981
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524118046422906,
+                    "y": 0.3416905728797933,
+                    "z": 1.6267164334418334
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.04474955226894982,
+                    "y": 0.0000023721288691811674,
+                    "z": 3.1087889849508223
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": 0.27687668162094325,
+                    "y": -4.696398457626483e-9,
+                    "z": -0.1438275892014841
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": 0.022490023870787763,
+                    "y": -3.2009292544560135e-10,
+                    "z": -0.00755760953685155
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.05137803613223575,
+                    "y": -0.00018561178799863718,
+                    "z": -0.012041636071551535
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -0.6758383690573038,
+              "y": 2.996702119691671,
+              "z": 0
+            },
+            "304AE2E2-385E-4854-A6DD-0025E10B1A81": {
+              "displayName": "Character 3",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "304AE2E2-385E-4854-A6DD-0025E10B1A81",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.1350403941781507,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 1.4900880986560625,
+              "y": 3.068003847601532,
+              "z": 0
+            },
+            "38783311-1CBE-41DA-821B-2C0AE0932A20": {
+              "depth": 1.5,
+              "displayName": "Object 2",
+              "height": 1.5,
+              "id": "38783311-1CBE-41DA-821B-2C0AE0932A20",
+              "model": "table-bar-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": -0.2822358064299519,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1.5,
+              "x": -1.5895070416025572,
+              "y": 3.844889646444589,
+              "z": -0.6
+            },
+            "5449B32C-AF71-462C-AE9A-AE7779EA1966": {
+              "displayName": "Character 5",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "5449B32C-AF71-462C-AE9A-AE7779EA1966",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.09890968352026998,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.4714214399568406,
+              "y": 3.0813997182375257,
+              "z": -2.7755575615628914e-17
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 12.248999899990023,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": -1.6440000000000003,
+              "tilt": -0.05799999999999996,
+              "type": "camera",
+              "x": -14.33116063764594,
+              "y": 0.04749004589213775,
+              "z": 1.3000000000000003
+            },
+            "9545461F-E2FA-4FE8-A92D-6803527673C2": {
+              "depth": 4,
+              "displayName": "Object 4",
+              "height": 5,
+              "id": "9545461F-E2FA-4FE8-A92D-6803527673C2",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": -0.006672422458035491,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 5,
+              "x": -4.385580494646319,
+              "y": -0.6906610557224175,
+              "z": 0
+            },
+            "D1823AAD-A65F-465B-9C82-4BB84990B0C6": {
+              "depth": 1.5000000000000004,
+              "displayName": "Object 3",
+              "height": 1.5000000000000004,
+              "id": "D1823AAD-A65F-465B-9C82-4BB84990B0C6",
+              "model": "table-bar-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": 0.17041647659679734,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1.5000000000000004,
+              "x": 2.5593682798922996,
+              "y": 4.001577582183348,
+              "z": -0.6
+            },
+            "D4BE9C3B-82C2-4A84-8274-AAFEB525D7A0": {
+              "depth": 1.025,
+              "displayName": "Object 5",
+              "height": 0.12500000000000003,
+              "id": "D4BE9C3B-82C2-4A84-8274-AAFEB525D7A0",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": -1.7724679068112024,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 0.42500000000000004,
+              "x": -1.5710778048435472,
+              "y": 3.689405210350132,
+              "z": 0.9999999999999974
+            },
+            "E40A6AA4-CED1-4627-9AD4-72AE9372D7C3": {
+              "depth": 1.5000000000000004,
+              "displayName": "Object 1",
+              "height": 1.5000000000000004,
+              "id": "E40A6AA4-CED1-4627-9AD4-72AE9372D7C3",
+              "model": "table-bar-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": -0.005686292047894848,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1.5000000000000004,
+              "x": 0.5034284604323194,
+              "y": 4.11796728598942,
+              "z": -0.6
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      },
+      "action": "Members settle at the foellinger podium. Everyone places the toolbox on the table and opens it.",
+      "notes": "(MF) Start from the side of the podium and move in. Try zooming in further than full then pan around",
+      "lineMileage": 734.1744624698899
+    },
+    {
+      "uid": "YU47W",
+      "url": "board-8-YU47W.png",
+      "newShot": false,
+      "lastEdited": 1571357616632,
+      "layers": {
+        "shot-generator": {
+          "url": "board-8-YU47W-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-8-YU47W-shot-generator-thumbnail.jpg"
+        }
+      },
+      "shot": "3B",
+      "number": 8,
+      "time": 14000,
+      "sg": {
+        "version": "1.14.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "01687A5B-46C5-4201-ABFC-964F47CA4944": {
+              "displayName": "Character 4",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "01687A5B-46C5-4201-ABFC-964F47CA4944",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.10981395866282552,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": 0.45151765741239214,
+                    "y": -0.01598705097580048,
+                    "z": -0.0422619860135357
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.10406895348804562,
+                    "y": 0.35393302872756277,
+                    "z": 0.47737313665050696
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.1375707801667843,
+                    "y": -0.09001895359575153,
+                    "z": 0.09784083987623045
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": -0.16592803463671432,
+                    "y": -0.0909740527470078,
+                    "z": 1.0433796094145134
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.034019110190634,
+                    "y": 0.07116054108539271,
+                    "z": -0.05372397731087361
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.3070082771638215,
+                    "y": 0.0009168438367557494,
+                    "z": 0.0007296648811639273
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.552916752765895,
+                    "y": -0.3419413189296913,
+                    "z": -1.6250965444913787
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -0.17362106896173404,
+                    "y": 0.00012688368245540994,
+                    "z": -3.0674804418838506
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": -0.3196199241141107,
+                    "y": -0.03231933564505636,
+                    "z": 0.11387680297781261
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.44943127148884127,
+                    "y": -1.0440693265523635,
+                    "z": -0.9576182001135514
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.129070534708238,
+                    "y": 0.03709744735531044,
+                    "z": -0.155355621096953
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.6891309691182167,
+                    "y": 0.43940160611204243,
+                    "z": -0.662079611379213
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.03576737464887351,
+                    "y": -0.0763951181148299,
+                    "z": 0.05731640695984037
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.3227861496984331,
+                    "y": -0.0012425852877649116,
+                    "z": 0.004595117103248979
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116381962012,
+                    "y": 0.341690401463216,
+                    "z": 1.6267169008499747
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -0.17880344249832336,
+                    "y": 0.000002401599418917128,
+                    "z": -3.1408090056485545
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": 0.03715838479101106,
+                    "y": 1.945508654079952e-10,
+                    "z": 0.0059377027778662085
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": 0.043279591856268174,
+                    "y": 4.6443599202475143e-10,
+                    "z": 0.010965692153531227
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.20511884271262215,
+                    "y": -0.002092276835860692,
+                    "z": -0.13615448483649045
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -1.8283508084605775,
+              "y": 2.800042642186234,
+              "z": -0.06806604526193538
+            },
+            "14E45D1D-91F5-4BC5-82A3-4B591A3CA591": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "14E45D1D-91F5-4BC5-82A3-4B591A3CA591",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.07054928372277441,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 2.6170161022223892,
+              "y": 2.8385739620678914,
+              "z": 0
+            },
+            "1E96C4A6-1A99-416C-8DC3-D22CBA5FF09D": {
+              "displayName": "Character 2",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "1E96C4A6-1A99-416C-8DC3-D22CBA5FF09D",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.17642013907417514,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": 0.7349424756397802,
+                    "y": 0.030597442695937192,
+                    "z": 0.017614474622046943
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.12148589399831321,
+                    "y": 0.3260011411818909,
+                    "z": 0.34798264522099676
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.071578080987624,
+                    "y": -0.062226506091362405,
+                    "z": 0.13081169744144674
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": -0.16203872038526818,
+                    "y": -0.11232816099411619,
+                    "z": 1.2536387537461493
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.034019055406247285,
+                    "y": 0.07116040054186093,
+                    "z": -0.053724110797468305
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.024359459209915637,
+                    "y": -0.0002448770037796979,
+                    "z": -0.0003303516547841904
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168781900695,
+                    "y": -0.34194165347751854,
+                    "z": -1.6250959525655533
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": 0.0408016309673638,
+                    "y": 0.0001272938524987761,
+                    "z": -3.108751694086896
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": -0.26832612486177765,
+                    "y": 0.0021900589711174724,
+                    "z": -0.007697326106872898
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.7278743127970667,
+                    "y": -0.981455635256075,
+                    "z": -0.6721597494705926
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.0473269701815855,
+                    "y": 0.06913723914432057,
+                    "z": -0.13485579313688761
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.5357035786429218,
+                    "y": 0.19777048849868192,
+                    "z": -0.612378606349183
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.0357673728144282,
+                    "y": -0.07639511062847812,
+                    "z": 0.057316405388155606
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.018566679364521343,
+                    "y": 0.00007125016729599436,
+                    "z": 0.0002584062980434981
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524118046422906,
+                    "y": 0.3416905728797933,
+                    "z": 1.6267164334418334
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.04474955226894982,
+                    "y": 0.0000023721288691811674,
+                    "z": 3.1087889849508223
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": 0.27687668162094325,
+                    "y": -4.696398457626483e-9,
+                    "z": -0.1438275892014841
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": 0.022490023870787763,
+                    "y": -3.2009292544560135e-10,
+                    "z": -0.00755760953685155
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.05137803613223575,
+                    "y": -0.00018561178799863718,
+                    "z": -0.012041636071551535
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -0.6758383690573038,
+              "y": 2.996702119691671,
+              "z": 0
+            },
+            "304AE2E2-385E-4854-A6DD-0025E10B1A81": {
+              "displayName": "Character 3",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "304AE2E2-385E-4854-A6DD-0025E10B1A81",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.1350403941781507,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 1.4900880986560625,
+              "y": 3.068003847601532,
+              "z": 0
+            },
+            "38783311-1CBE-41DA-821B-2C0AE0932A20": {
+              "depth": 1.5,
+              "displayName": "Object 2",
+              "height": 1.5,
+              "id": "38783311-1CBE-41DA-821B-2C0AE0932A20",
+              "model": "table-bar-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": -0.2822358064299519,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1.5,
+              "x": -1.5895070416025572,
+              "y": 3.844889646444589,
+              "z": -0.6
+            },
+            "5449B32C-AF71-462C-AE9A-AE7779EA1966": {
+              "displayName": "Character 5",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "5449B32C-AF71-462C-AE9A-AE7779EA1966",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "posePresetId": "79BBBD0D-6BA2-4D84-9B71-EE661AB6E5AE",
+              "rotation": -0.09890968352026998,
+              "skeleton": {
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708379327832764,
+                    "y": -0.11931130645160759,
+                    "z": -0.1776163624389008
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392413349188732,
+                    "y": 0.06624836455319376,
+                    "z": 0.29879477158887485
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.057228116003184,
+                    "y": 0.13045102714961612,
+                    "z": 0.1570463626924257
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067946699767342,
+                    "y": -0.19368502447268662,
+                    "z": -0.2725073929210185
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.4714214399568406,
+              "y": 3.0813997182375257,
+              "z": -2.7755575615628914e-17
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 10.748849884988527,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": -1.5380000000000005,
+              "tilt": -0.029999999999999964,
+              "type": "camera",
+              "x": -12.247387630402864,
+              "y": 3.7885357392255576,
+              "z": 1.3000000000000003
+            },
+            "9545461F-E2FA-4FE8-A92D-6803527673C2": {
+              "depth": 4,
+              "displayName": "Object 4",
+              "height": 5,
+              "id": "9545461F-E2FA-4FE8-A92D-6803527673C2",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": -0.006672422458035491,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 5,
+              "x": -4.385580494646319,
+              "y": -0.6906610557224175,
+              "z": 0
+            },
+            "D1823AAD-A65F-465B-9C82-4BB84990B0C6": {
+              "depth": 1.5000000000000004,
+              "displayName": "Object 3",
+              "height": 1.5000000000000004,
+              "id": "D1823AAD-A65F-465B-9C82-4BB84990B0C6",
+              "model": "table-bar-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": 0.17041647659679734,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1.5000000000000004,
+              "x": 2.5593682798922996,
+              "y": 4.001577582183348,
+              "z": -0.6
+            },
+            "D4BE9C3B-82C2-4A84-8274-AAFEB525D7A0": {
+              "depth": 1.025,
+              "displayName": "Object 5",
+              "height": 0.12500000000000003,
+              "id": "D4BE9C3B-82C2-4A84-8274-AAFEB525D7A0",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": -1.7724679068112024,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 0.42500000000000004,
+              "x": -1.5710778048435472,
+              "y": 3.689405210350132,
+              "z": 0.9999999999999974
+            },
+            "E40A6AA4-CED1-4627-9AD4-72AE9372D7C3": {
+              "depth": 1.5000000000000004,
+              "displayName": "Object 1",
+              "height": 1.5000000000000004,
+              "id": "E40A6AA4-CED1-4627-9AD4-72AE9372D7C3",
+              "model": "table-bar-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": -0.005686292047894848,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1.5000000000000004,
+              "x": 0.5034284604323194,
+              "y": 4.11796728598942,
+              "z": -0.6
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": "0Q8QR",
+      "url": "board-9-0Q8QR.png",
+      "newShot": true,
+      "lastEdited": 1571357966959,
+      "layers": {
+        "shot-generator": {
+          "url": "board-9-0Q8QR-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-9-0Q8QR-shot-generator-thumbnail.jpg"
+        }
+      },
       "shot": "4A",
-      "time": 15700,
+      "number": 9,
+      "time": 16000,
+      "sg": {
+        "version": "1.14.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "1E96C4A6-1A99-416C-8DC3-D22CBA5FF09D": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "1E96C4A6-1A99-416C-8DC3-D22CBA5FF09D",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.17642013907417514,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": 0.7349424752565223,
+                    "y": 0.03059739636675143,
+                    "z": 0.017614474959809803
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": -0.3335476802345165,
+                    "y": 0.0231651778996523,
+                    "z": 1.5142879156422642
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.0715938078089322,
+                    "y": -0.06222355164802378,
+                    "z": 0.1308525423133086
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.007086303884358595,
+                    "y": 0.03167647338153656,
+                    "z": 0.04388830096373455
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03401915313297893,
+                    "y": 0.07116037494126888,
+                    "z": -0.053724083004990375
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.02435938283116887,
+                    "y": -0.000246082380883184,
+                    "z": -0.00033018559126324424
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168439263261,
+                    "y": -0.3419414906999045,
+                    "z": -1.6250962034936447
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": 0.04080163096736015,
+                    "y": 0.00012729385249903567,
+                    "z": -3.1087516940868953
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": -0.26832612408366074,
+                    "y": 0.0021900608789647397,
+                    "z": -0.007697325524721354
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.022674970746608823,
+                    "y": -0.46247792160189805,
+                    "z": -1.008982174475004
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.0473245180833177,
+                    "y": 0.06913210892074245,
+                    "z": -0.13485311293195706
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.33724871281978896,
+                    "y": 0.22308414305732946,
+                    "z": -1.205649845946273
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.035767335084700515,
+                    "y": -0.07639511437159714,
+                    "z": 0.057316425108026176
+                  }
+                },
+                "RightHandMiddle2": {
+                  "rotation": {
+                    "x": 0.5564401704570046,
+                    "y": 0.08883622178787087,
+                    "z": 0.11420490126256183
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.01856669599136988,
+                    "y": 0.00007148536938183532,
+                    "z": 0.00025840273539285156
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524121568586255,
+                    "y": 0.34169036441818784,
+                    "z": 1.626716381000055
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.044749552268949784,
+                    "y": 0.0000023721288690658082,
+                    "z": 3.108788984950822
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": 0.2768766816209435,
+                    "y": -4.69639927988541e-9,
+                    "z": -0.14382758920148456
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": 0.022490023870788065,
+                    "y": -3.2009157664388867e-10,
+                    "z": -0.007557609536851075
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.051378036132235703,
+                    "y": -0.00018561178799950082,
+                    "z": -0.0120416360715518
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.42886171336987217,
+              "y": 3.0741860396063516,
+              "z": -5.273559366969494e-16
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 10.248799879988017,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": -2.806000000000001,
+              "tilt": -0.7260000000000001,
+              "type": "camera",
+              "x": -0.31924996493425184,
+              "y": 1.6752331671125527,
+              "z": 3.1000000000000005
+            },
+            "D4BE9C3B-82C2-4A84-8274-AAFEB525D7A0": {
+              "depth": 0.525,
+              "displayName": "Object 1",
+              "height": 0.12500000000000003,
+              "id": "D4BE9C3B-82C2-4A84-8274-AAFEB525D7A0",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": -1.7724679068112024,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 0.42500000000000004,
+              "x": 0.489082997191881,
+              "y": 3.805658475393528,
+              "z": 0.9999999999999974
+            },
+            "E40A6AA4-CED1-4627-9AD4-72AE9372D7C3": {
+              "depth": 1.5000000000000004,
+              "displayName": "Object 2",
+              "height": 1.5000000000000004,
+              "id": "E40A6AA4-CED1-4627-9AD4-72AE9372D7C3",
+              "model": "table-bar-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": -0.005686292047894848,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1.5000000000000004,
+              "x": 0.5034284604323194,
+              "y": 4.11796728598942,
+              "z": -0.6
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      },
       "action": "One member opens the box with a sticker on the lid, revealing its content. The content includes WaggleRouter and other appliances.",
       "notes": "(OS) Frame over the shoulder FPV at the box being opened."
     },
     {
-      "uid": "VVY3R",
-      "url": "board-5-VVY3R.png",
-      "newShot": false,
-      "lastEdited": 1571346121454,
-      "layers": {},
-      "number": 5,
+      "uid": "E0EWX",
+      "url": "board-11-E0EWX.png",
+      "newShot": true,
+      "lastEdited": 1571358174161,
+      "layers": {
+        "shot-generator": {
+          "url": "board-11-E0EWX-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-11-E0EWX-shot-generator-thumbnail.jpg"
+        },
+        "reference": {
+          "url": "board-11-E0EWX-reference.png",
+          "opacity": 1
+        }
+      },
       "shot": "5A",
-      "time": 17700,
-      "action": "One person hands a laptop to another person. The other person takes the laptop and opens it one hand while also placing it down. (Don't need to reveal what's on the screen)."
+      "number": 10,
+      "time": 18000,
+      "sg": {
+        "version": "1.14.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "181E9A91-70B9-4D8B-86EB-C4D928EF84C6": {
+              "displayName": "Character 2",
+              "headScale": 1,
+              "height": 1.5713999999999992,
+              "id": "181E9A91-70B9-4D8B-86EB-C4D928EF84C6",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": -0.1374894968386333,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -1.3724020633636448e-10,
+                    "y": -9.010743705205558e-9,
+                    "z": -9.301550635615619e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": -5.679133526449811e-17,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708377476574071,
+                    "y": -0.11931118935884083,
+                    "z": -0.1776164855251983
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.0677308031049721,
+                    "y": -0.07016202181830172,
+                    "z": 0.12673779560935136
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.09392433508289573,
+                    "y": 0.06624797547003507,
+                    "z": 0.2987949730911155
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": 0.13096551488814784,
+                    "y": 0.06940181481377704,
+                    "z": -0.09006037945037351
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.017365241127069397,
+                    "y": -0.00025813880111294864,
+                    "z": 0.01707840406519963
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.552916792033321,
+                    "y": -0.3419416473162811,
+                    "z": -1.625095717221308
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": 0.044214755930339494,
+                    "y": 0.00012735137459541883,
+                    "z": -3.1172439644623426
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.14498144512581798,
+                    "y": -9.217815171988748e-15,
+                    "z": -8.848287656296208e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.2711672915988289,
+                    "y": -0.3048771345542253,
+                    "z": 1.0053352410333207
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.0412079876201745,
+                    "y": 0.07693368698523805,
+                    "z": -0.13055606887096635
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.26983221293523074,
+                    "y": 0.7023972616319282,
+                    "z": -1.1637919872632037
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.03576729924529182,
+                    "y": -0.07639524056593912,
+                    "z": 0.057316482399096466
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.007243338358519495,
+                    "y": 0.0000774137928563092,
+                    "z": -0.017097714518433126
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524115715464781,
+                    "y": 0.34169059240941446,
+                    "z": 1.6267163438713705
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.05027213705076433,
+                    "y": 0.0000023798078985289146,
+                    "z": 3.1172517691140365
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326756,
+                    "y": -5.3776835145378275e-16,
+                    "z": 3.2982147966530824e-16
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.341104490630404e-7,
+                    "y": 5.489829337378858e-16,
+                    "z": -3.9044039313125233e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037499204448226e-7,
+                    "y": -1.1358263944668513e-16,
+                    "z": 1.9403708034822547e-16
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 1.5858197810318426,
+              "y": 1.1882245092785686,
+              "z": 0
+            },
+            "2533431C-E912-4767-BDC2-6444AC81FCF5": {
+              "depth": 0.40000000000000013,
+              "displayName": "Object 1",
+              "height": 0.025,
+              "id": "2533431C-E912-4767-BDC2-6444AC81FCF5",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 0.03417920944292537,
+                "z": 0.10471975511965978
+              },
+              "type": "object",
+              "visible": true,
+              "width": 0.6000000000000001,
+              "x": 0.7268846792470214,
+              "y": 0.8994375209135388,
+              "z": 1.2
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 8.248599859986001,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": -0.10471975511965975,
+              "rotation": -0.14400000000000002,
+              "tilt": -0.067,
+              "type": "camera",
+              "x": 0,
+              "y": 6,
+              "z": 1.6000000000000005
+            },
+            "9DD9D533-E2A9-467C-B40F-41F551DD9C21": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "9DD9D533-E2A9-467C-B40F-41F551DD9C21",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": 0.034585254105448826,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": 6.332321141990538e-11,
+                    "y": -7.11287554634007e-10,
+                    "z": -9.983403318642162e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.16531744701327997,
+                    "y": 0.22287072606821165,
+                    "z": -0.5092829718836878
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.067728377514464,
+                    "y": -0.07017018588269414,
+                    "z": 0.12672720931394296
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": -0.14726251201528107,
+                    "y": -0.06596949391522484,
+                    "z": 1.2792857394479873
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.16060605657874122,
+                    "y": 0.23211903596843195,
+                    "z": 0.034306269721670536
+                  }
+                },
+                "LeftHandThumb3": {
+                  "rotation": {
+                    "x": -0.6795238774590983,
+                    "y": 0.01795930037739778,
+                    "z": -2.094125745866471
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.017365567718599158,
+                    "y": -0.00025751768556514667,
+                    "z": 0.017078341446710988
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168182992408,
+                    "y": -0.34194164440597413,
+                    "z": -1.6250957033931779
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": 0.04421475593033941,
+                    "y": 0.0001273513745950149,
+                    "z": -3.1172439644623426
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.14498144512581632,
+                    "y": -9.798805061821482e-15,
+                    "z": -4.917363207367953e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.0572282752752604,
+                    "y": 0.13045182336162317,
+                    "z": 0.15704613733745115
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.0412075129916034,
+                    "y": 0.07693563079489121,
+                    "z": -0.13055337600724365
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.08067950809119569,
+                    "y": -0.1936851712359219,
+                    "z": -0.2725072203765973
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": 0.11133891596350266,
+                    "y": -0.07545082456238837,
+                    "z": 0.08236309706107607
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.0072434186036945,
+                    "y": 0.00007735851131601698,
+                    "z": -0.017097706063148217
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.552411563736586,
+                    "y": 0.34169059638375726,
+                    "z": 1.6267163590099407
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.05027213705076302,
+                    "y": 0.000002379807898561007,
+                    "z": 3.1172517691140365
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032326934,
+                    "y": 1.3683750598150878e-16,
+                    "z": -8.324727535177649e-17
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3411044492187005e-7,
+                    "y": -2.0871196044777146e-16,
+                    "z": 1.2807322919146398e-16
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037499064448603e-7,
+                    "y": 8.673742292440762e-17,
+                    "z": -7.25070880793099e-17
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -0.17687027211173628,
+              "y": 0.8559784184739463,
+              "z": 0
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      },
+      "action": "One person hands a laptop to another person. The other person takes the laptop and opens it one hand while also placing it down. (Don't need to reveal what's on the screen).",
+      "notes": "(MCU) Handover of the laptop",
+      "lineMileage": 0
     },
     {
       "uid": "WK1GT",
       "url": "board-6-WK1GT.png",
-      "newShot": false,
+      "newShot": true,
       "lastEdited": 1571346448312,
       "layers": {},
-      "number": 6,
+      "number": 11,
       "shot": "6A",
-      "time": 19700,
+      "time": 20000,
       "action": "Member 1 - Configures remote\nMember 2 - Takes drone out of the box\nMember 3 - Typing\nMember 4 - Configures car\nMember 5 - Works with the coffee parts",
       "notes": "TODO: multi shot"
     }
