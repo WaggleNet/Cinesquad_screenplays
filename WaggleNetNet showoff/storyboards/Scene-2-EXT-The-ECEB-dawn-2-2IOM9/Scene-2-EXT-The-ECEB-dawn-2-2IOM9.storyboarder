@@ -51,24 +51,6 @@
         "reference": {
           "url": "board-3-FRKR1-reference.png",
           "opacity": 1
-        },
-        "shot-generator": {
-          "url": "board-3-FRKR1-shot-generator.png"
-        },
-        "fill": {
-          "url": "board-3-FRKR1-fill.png"
-        },
-        "tone": {
-          "url": "board-3-FRKR1-tone.png"
-        },
-        "pencil": {
-          "url": "board-3-FRKR1-pencil.png"
-        },
-        "ink": {
-          "url": "board-3-FRKR1-ink.png"
-        },
-        "notes": {
-          "url": "board-3-FRKR1-notes.png"
         }
       },
       "number": 3,
@@ -86,7 +68,8 @@
           "opacity": 0.75
         },
         "shot-generator": {
-          "url": "board-5-HV05V-shot-generator.png"
+          "url": "board-5-HV05V-shot-generator.png",
+          "opacity": 0.75
         },
         "fill": {
           "url": "board-5-HV05V-fill.png"
@@ -112,7 +95,8 @@
       "number": 4,
       "time": 6100,
       "action": "Kitchen light goes down, then appliances break down in smoke",
-      "notes": "(MCU) Profile shot of kitchen; appliances turn off when in sight. Ends with lights-out (dark)"
+      "notes": "(MCU) Profile shot of kitchen; appliances turn off when in sight. Ends with lights-out (dark)",
+      "lineMileage": 0
     },
     {
       "layers": {

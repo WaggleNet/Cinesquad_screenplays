@@ -12,7 +12,9 @@
       "layers": {},
       "number": 1,
       "shot": "1A",
-      "time": 0
+      "time": 0,
+      "duration": "2000",
+      "notes": "EXT. Drones flying in formation over the Engineering Quad.\nundefined"
     }
   ]
 }

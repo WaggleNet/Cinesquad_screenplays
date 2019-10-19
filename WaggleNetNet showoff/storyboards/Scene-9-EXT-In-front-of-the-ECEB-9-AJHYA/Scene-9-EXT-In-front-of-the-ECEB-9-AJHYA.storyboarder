@@ -9,10 +9,36 @@
       "url": "board-1-H80AX.png",
       "newShot": false,
       "lastEdited": 1571460931564,
-      "layers": {},
+      "layers": {
+        "shot-generator": {
+          "url": "board-1-H80AX-shot-generator.png"
+        },
+        "reference": {
+          "url": "board-1-H80AX-reference.png",
+          "opacity": 0.75
+        },
+        "fill": {
+          "url": "board-1-H80AX-fill.png"
+        },
+        "tone": {
+          "url": "board-1-H80AX-tone.png"
+        },
+        "pencil": {
+          "url": "board-1-H80AX-pencil.png"
+        },
+        "ink": {
+          "url": "board-1-H80AX-ink.png"
+        },
+        "notes": {
+          "url": "board-1-H80AX-notes.png"
+        }
+      },
       "number": 1,
       "shot": "1A",
-      "time": 0
+      "time": 0,
+      "duration": "6900",
+      "action": "The first rover slowly descends towards the ground. The strike team begins working out of the ECEB in small clusters, all staring at the rover as it is about to touch down.",
+      "lineMileage": 0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "1.14.0",
+  "version": "1.15.0",
   "aspectRatio": "1.7777777777777777",
   "fps": 24,
   "defaultBoardTiming": 2000,
@@ -7,12 +7,379 @@
     {
       "uid": "9FJKZ",
       "url": "board-1-9FJKZ.png",
-      "newShot": false,
+      "newShot": true,
       "lastEdited": 1571346487652,
-      "layers": {},
+      "layers": {
+        "notes": {
+          "url": "board-1-9FJKZ-notes.png"
+        }
+      },
       "number": 1,
       "shot": "1A",
-      "time": 0
+      "time": 0,
+      "lineMileage": 5175.254726314573,
+      "duration": "1900",
+      "dialogue": "LAPTOP ONSCREEN DISPLAY: Connecting to WaggleNet..."
+    },
+    {
+      "uid": "TIRVQ",
+      "url": "board-2-TIRVQ.png",
+      "newShot": true,
+      "lastEdited": 1571518690538,
+      "layers": {
+        "shot-generator": {
+          "url": "board-2-TIRVQ-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-2-TIRVQ-shot-generator-thumbnail.jpg"
+        }
+      },
+      "number": 2,
+      "shot": "2A",
+      "time": 1900,
+      "sg": {
+        "version": "1.15.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 22.25,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": -0.8220000000000001,
+              "tilt": -0.010000000000000016,
+              "type": "camera",
+              "x": -6.064660861232764,
+              "y": 4.673216506093298,
+              "z": 1
+            },
+            "72160BFC-958E-47EC-A425-27E22128741E": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "72160BFC-958E-47EC-A425-27E22128741E",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": 0.030442409055589613,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": 3.488145768370796e-11,
+                    "y": -4.5516312023337526e-10,
+                    "z": -4.982861696280495e-10
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": -4.8789806928263e-17,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 1.0708378401916523,
+                    "y": -0.11931120043913801,
+                    "z": -0.177616459127588
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.0677242305782975,
+                    "y": -0.07016710732786847,
+                    "z": 0.12671978946401366
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": 0.093924367008269,
+                    "y": 0.06624825829484657,
+                    "z": 0.29879465083181156
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": 0.13096553554783705,
+                    "y": 0.06940184828421075,
+                    "z": -0.09006047955926694
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -0.017365676041259787,
+                    "y": -0.0002547737784188552,
+                    "z": 0.017078369985641603
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529167769549423,
+                    "y": -0.3419417031540089,
+                    "z": -1.625095840062043
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": 0.044214755930339064,
+                    "y": 0.00012735137459505758,
+                    "z": -3.1172439644623426
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.14498144512581426,
+                    "y": -4.793097638326251e-15,
+                    "z": -3.0165414418995667e-16
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 1.0424089486629464,
+                    "y": 0.10287010704620358,
+                    "z": 0.14829342500932496
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.041208763306276,
+                    "y": 0.07693604706264003,
+                    "z": -0.13055571283406592
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.11127817649285231,
+                    "y": -0.19923299765249267,
+                    "z": -0.25625867899706356
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.035778027373730634,
+                    "y": -0.08023500456572386,
+                    "z": 0.0571785426864095
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -0.0072433969294288265,
+                    "y": 0.00007803284970320832,
+                    "z": -0.017097704701787612
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524115748415286,
+                    "y": 0.34169063500855695,
+                    "z": 1.6267164382066546
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": 0.050272137050763985,
+                    "y": 0.0000023798078985543934,
+                    "z": 3.1172517691140365
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.1449816103232669,
+                    "y": 7.349831150164598e-17,
+                    "z": 9.96030174323069e-19
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.341104496165337e-7,
+                    "y": -2.710544972480946e-17,
+                    "z": 2.1345538713553132e-17
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 3.2037499359355877e-7,
+                    "y": -8.131633836750746e-18,
+                    "z": 4.06581854660809e-18
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": -0.15883354683475578,
+              "y": 0.7841027397511457,
+              "z": 0
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      },
+      "duration": "6900",
+      "action": "The crew quickly plugs in the Router into USB and momentarily the prompt disappears and the main UI appears on the laptop. We refer to the main UI as  the program .",
+      "dialogue": "Suggested UI on the other laptops: - https://github.com/GitSquared/edex-ui with https://github.com/abishekvashok/cmatrix - Scrolling command line"
+    },
+    {
+      "uid": "AE254",
+      "url": "board-2-AE254.png",
+      "newShot": true,
+      "lastEdited": 1571518639071,
+      "layers": {},
+      "number": 3,
+      "shot": "3A",
+      "time": 8800,
+      "duration": "7700",
+      "action": "Group A plugs batteries into each rover, and it is instantly displayed onto the program . "
+    },
+    {
+      "uid": "EEFO4",
+      "url": "board-4-EEFO4.png",
+      "newShot": true,
+      "lastEdited": 1571518834890,
+      "layers": {},
+      "shot": "4A",
+      "number": 4,
+      "time": 16500,
+      "duration": "7700",
+      "action": "Plots of the battery level and temperature of the systems begin scrolling in the lower part of  the program ."
+    },
+    {
+      "uid": "SOFHY",
+      "url": "board-6-SOFHY.png",
+      "newShot": true,
+      "lastEdited": 1571519045908,
+      "layers": {
+        "shot-generator": {
+          "url": "board-6-SOFHY-shot-generator.png"
+        },
+        "reference": {
+          "url": "board-6-SOFHY-reference.png",
+          "opacity": 0.75
+        },
+        "fill": {
+          "url": "board-6-SOFHY-fill.png"
+        },
+        "tone": {
+          "url": "board-6-SOFHY-tone.png"
+        },
+        "pencil": {
+          "url": "board-6-SOFHY-pencil.png"
+        },
+        "ink": {
+          "url": "board-6-SOFHY-ink.png"
+        },
+        "notes": {
+          "url": "board-6-SOFHY-notes.png"
+        }
+      },
+      "shot": "5A",
+      "number": 5,
+      "time": 24200,
+      "action": "Group A attaches the payload parts onto the rover.",
+      "lineMileage": 451.9953655011126
+    },
+    {
+      "uid": "I4DP2",
+      "url": "board-5-I4DP2.png",
+      "newShot": true,
+      "lastEdited": 1571518943541,
+      "layers": {},
+      "shot": "6A",
+      "number": 6,
+      "time": 26200,
+      "duration": "6100",
+      "action": "Group B starts powering up the drone on the left side of the laptop, and afterwards, begins helping Group A attach the rover to the drone's airdropping adapter."
+    },
+    {
+      "uid": "CF6L8",
+      "url": "board-7-CF6L8.png",
+      "newShot": true,
+      "lastEdited": 1571519099233,
+      "layers": {},
+      "shot": "7A",
+      "number": 7,
+      "time": 32300,
+      "duration": "1600",
+      "dialogue": "ONSCREEN DISPLAY MESSAGE: Payload attached."
+    },
+    {
+      "uid": "YNY7J",
+      "url": "board-8-YNY7J.png",
+      "newShot": true,
+      "lastEdited": 1571519105137,
+      "layers": {},
+      "shot": "8A",
+      "number": 8,
+      "time": 33900,
+      "duration": "13500",
+      "action": "One of the member grabs the drone controller and flies the drone upward and forward, slightly beyond their face level. Then it's a full-stick forward.",
+      "notes": "(M) Side profile shot."
+    },
+    {
+      "uid": "IWUWG",
+      "url": "board-9-IWUWG.png",
+      "newShot": true,
+      "lastEdited": 1571519147831,
+      "layers": {},
+      "shot": "9A",
+      "number": 9,
+      "time": 47400,
+      "action": "The program displays distance of the drone from base and its location on a map. "
+    },
+    {
+      "uid": "BXROF",
+      "url": "board-10-BXROF.png",
+      "newShot": true,
+      "lastEdited": 1571519245502,
+      "layers": {},
+      "shot": "10A",
+      "number": 10,
+      "time": 49400,
+      "action": "Once the first one's underway, multiple drones swarm forward, each carrying a rover except one of them - presumably acting as a communication relay.",
+      "notes": "TODO: Film drones one by one and try stitching the images."
+    },
+    {
+      "uid": "08H9C",
+      "url": "board-11-08H9C.png",
+      "newShot": true,
+      "lastEdited": 1571519286900,
+      "layers": {},
+      "shot": "11A",
+      "number": 11,
+      "time": 51400,
+      "duration": "7600",
+      "dialogue": "DISPLAYED ON THE PROGRAM: A map of the drones forming a small topology over the map, with the relaying drone highlighted by an animated circular ripple."
     }
   ]
 }

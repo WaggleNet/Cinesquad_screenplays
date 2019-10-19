@@ -1,0 +1,32 @@
+{
+  "version": "1.15.0",
+  "aspectRatio": "1.7777777777777777",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "H5YSW",
+      "url": "board-1-H5YSW.png",
+      "newShot": false,
+      "lastEdited": 1571519557279,
+      "layers": {},
+      "number": 1,
+      "shot": "1A",
+      "time": 0,
+      "duration": "12700",
+      "action": "Inside the lab it is all dark. A desklamp is turned on, revealing a long table. A stack of lunch boxes are broughted onto the end of a long table; and a person starts unstacking them, while others follow and unpack behind. One person grabs a Windows tablet and strides out of the lab, raising the tablet while on the move."
+    },
+    {
+      "uid": "1QGO9",
+      "url": "board-2-1QGO9.png",
+      "newShot": false,
+      "lastEdited": 1571519586856,
+      "layers": {},
+      "number": 2,
+      "shot": "2A",
+      "time": 12700,
+      "duration": "5500",
+      "dialogue": "TABLET ONSCREEN DISPLAY: Connecting to WaggleNet.. ->  Shows the main UI identical to that of Rotor Squad "
+    }
+  ]
+}

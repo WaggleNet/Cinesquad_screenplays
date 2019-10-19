@@ -12,7 +12,21 @@
       "layers": {},
       "number": 1,
       "shot": "1A",
-      "time": 0
+      "time": 0,
+      "duration": "4700",
+      "action": "The view zooms in towards one of the drones. It lowers itself significantly over a glide path and drops the rover."
+    },
+    {
+      "uid": "O8SCZ",
+      "url": "board-2-O8SCZ.png",
+      "newShot": false,
+      "lastEdited": 1571519552390,
+      "layers": {},
+      "number": 2,
+      "shot": "2A",
+      "time": 4700,
+      "duration": "1600",
+      "dialogue": "ONSCREEN DISPLAY MESSAGE: Parachute deployed."
     }
   ]
 }

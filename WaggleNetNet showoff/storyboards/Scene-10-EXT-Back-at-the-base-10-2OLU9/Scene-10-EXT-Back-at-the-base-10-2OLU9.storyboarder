@@ -1,0 +1,18 @@
+{
+  "version": "1.15.0",
+  "aspectRatio": "1.7777777777777777",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "A1M9C",
+      "url": "board-1-A1M9C.png",
+      "newShot": false,
+      "lastEdited": 1571519668128,
+      "layers": {},
+      "number": 1,
+      "shot": "1A",
+      "time": 0
+    }
+  ]
+}
