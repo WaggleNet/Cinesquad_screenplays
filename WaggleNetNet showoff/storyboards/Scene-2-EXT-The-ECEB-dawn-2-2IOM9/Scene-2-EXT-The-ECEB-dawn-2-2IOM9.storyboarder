@@ -1,5 +1,5 @@
 {
-  "version": "1.14.0",
+  "version": "1.15.0",
   "aspectRatio": "1.7777777777777777",
   "fps": 24,
   "defaultBoardTiming": 2000,
@@ -12,35 +12,17 @@
       "layers": {
         "reference": {
           "url": "board-1-G6C9R-reference.png",
-          "opacity": 0.75
-        },
-        "shot-generator": {
-          "url": "board-1-G6C9R-shot-generator.png",
-          "opacity": 0.75
-        },
-        "fill": {
-          "url": "board-1-G6C9R-fill.png"
-        },
-        "tone": {
-          "url": "board-1-G6C9R-tone.png"
-        },
-        "pencil": {
-          "url": "board-1-G6C9R-pencil.png"
-        },
-        "ink": {
-          "url": "board-1-G6C9R-ink.png"
-        },
-        "notes": {
-          "url": "board-1-G6C9R-notes.png"
+          "opacity": 1
         }
       },
       "number": 1,
       "shot": "1A",
       "time": 0,
-      "lineMileage": 1254.2341676212145,
+      "lineMileage": 1648.2940261876834,
       "duration": "2100",
       "action": "The light in a lab suddenly goes down.",
-      "notes": "(M) Film from the outside."
+      "notes": "(M) Film from the outside.",
+      "link": "board-1-G6C9R.psd"
     },
     {
       "uid": "O2G5G",
@@ -48,15 +30,17 @@
       "newShot": true,
       "lastEdited": 1571344096660,
       "layers": {
-        "notes": {
-          "url": "board-2-O2G5G-notes.png"
+        "reference": {
+          "url": "board-2-O2G5G-reference.png",
+          "opacity": 1
         }
       },
       "number": 2,
       "shot": "2A",
       "time": 2100,
       "notes": "(M) Profile scan of a corridor",
-      "action": "Corridor lights go out one by one."
+      "action": "Corridor lights go out one by one.",
+      "link": "board-2-O2G5G.psd"
     },
     {
       "uid": "FRKR1",
@@ -66,7 +50,25 @@
       "layers": {
         "reference": {
           "url": "board-3-FRKR1-reference.png",
-          "opacity": 0.75
+          "opacity": 1
+        },
+        "shot-generator": {
+          "url": "board-3-FRKR1-shot-generator.png"
+        },
+        "fill": {
+          "url": "board-3-FRKR1-fill.png"
+        },
+        "tone": {
+          "url": "board-3-FRKR1-tone.png"
+        },
+        "pencil": {
+          "url": "board-3-FRKR1-pencil.png"
+        },
+        "ink": {
+          "url": "board-3-FRKR1-ink.png"
+        },
+        "notes": {
+          "url": "board-3-FRKR1-notes.png"
         }
       },
       "number": 3,
@@ -74,56 +76,60 @@
       "time": 4100,
       "notes": "(M) Aerial surround; try not to expose the bright parts",
       "action": "The ECEB powers down; becomes dark",
-      "lineMileage": 0
+      "lineMileage": 0,
+      "link": "board-3-FRKR1.psd"
     },
     {
-      "uid": "EOOB4",
-      "url": "board-4-EOOB4.png",
-      "newShot": true,
-      "lastEdited": 1571344301352,
-      "layers": {},
-      "number": 4,
-      "shot": "4A",
-      "time": 6100,
-      "notes": "(MCU) Profile shot of kitchen; appliances turn off when in sight. Ends with lights-out (dark)",
-      "action": "Kitchen light goes down, then appliances break down in smoke"
-    },
-    {
-      "uid": "UTY2L",
-      "url": "board-5-UTY2L.png",
-      "newShot": true,
-      "lastEdited": 1571344448736,
       "layers": {
-        "shot-generator": {
-          "url": "board-5-UTY2L-shot-generator.png",
+        "reference": {
+          "url": "board-5-HV05V-reference.png",
           "opacity": 0.75
         },
-        "reference": {
-          "url": "board-5-UTY2L-reference.png",
-          "opacity": 0.75
+        "shot-generator": {
+          "url": "board-5-HV05V-shot-generator.png"
         },
         "fill": {
-          "url": "board-5-UTY2L-fill.png"
+          "url": "board-5-HV05V-fill.png"
         },
         "tone": {
-          "url": "board-5-UTY2L-tone.png"
+          "url": "board-5-HV05V-tone.png"
         },
         "pencil": {
-          "url": "board-5-UTY2L-pencil.png"
+          "url": "board-5-HV05V-pencil.png"
         },
         "ink": {
-          "url": "board-5-UTY2L-ink.png"
+          "url": "board-5-HV05V-ink.png"
         },
         "notes": {
-          "url": "board-5-UTY2L-notes.png"
+          "url": "board-5-HV05V-notes.png"
         }
       },
-      "number": 5,
+      "uid": "HV05V",
+      "newShot": true,
+      "lastEdited": 1571505273823,
+      "url": "board-5-HV05V.png",
+      "shot": "4A",
+      "number": 4,
+      "time": 6100,
+      "action": "Kitchen light goes down, then appliances break down in smoke",
+      "notes": "(MCU) Profile shot of kitchen; appliances turn off when in sight. Ends with lights-out (dark)"
+    },
+    {
+      "layers": {
+        "reference": {
+          "url": "board-6-TZNYF-reference.png",
+          "opacity": 0.75
+        }
+      },
+      "uid": "TZNYF",
+      "newShot": true,
+      "lastEdited": 1571505310490,
+      "url": "board-6-TZNYF.png",
       "shot": "5A",
+      "number": 5,
       "time": 8100,
       "action": "Dawn breaks over the campus.",
       "dialogue": "COMMANDER (On the radio) Situation on the 4 o'clock. Got a visual. Repeat. Visual on target.",
-      "duration": "3700",
       "notes": "(W) Aerial survey of the north quad"
     },
     {
@@ -132,37 +138,20 @@
       "newShot": true,
       "lastEdited": 1571344653985,
       "layers": {
-        "shot-generator": {
-          "url": "board-6-P4KYM-shot-generator.png",
-          "opacity": 0.75
-        },
         "reference": {
           "url": "board-6-P4KYM-reference.png",
-          "opacity": 0.75
-        },
-        "fill": {
-          "url": "board-6-P4KYM-fill.png"
-        },
-        "tone": {
-          "url": "board-6-P4KYM-tone.png"
-        },
-        "pencil": {
-          "url": "board-6-P4KYM-pencil.png"
-        },
-        "ink": {
-          "url": "board-6-P4KYM-ink.png"
-        },
-        "notes": {
-          "url": "board-6-P4KYM-notes.png"
+          "opacity": 1
         }
       },
       "number": 6,
       "shot": "6A",
-      "time": 11800,
+      "time": 10100,
       "action": "Dawn breaks over the campus.",
       "dialogue": "",
       "duration": "3700",
-      "notes": "(W) Aerial CSL -> DSL, slam dunk over Grainger, ends from roof"
+      "notes": "(W) Aerial CSL -> DSL, slam dunk over Grainger, ends from roof",
+      "lineMileage": 0,
+      "link": "board-6-P4KYM.psd"
     }
   ]
 }

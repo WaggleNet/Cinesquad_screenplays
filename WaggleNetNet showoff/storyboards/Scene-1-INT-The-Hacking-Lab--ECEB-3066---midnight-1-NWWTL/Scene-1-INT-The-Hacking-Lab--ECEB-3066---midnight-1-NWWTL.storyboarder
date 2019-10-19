@@ -1605,6 +1605,10 @@
           "url": "board-7-2GOY6-shot-generator.png",
           "opacity": 1,
           "thumbnail": "board-7-2GOY6-shot-generator-thumbnail.jpg"
+        },
+        "reference": {
+          "url": "board-7-2GOY6-reference.png",
+          "opacity": 1
         }
       },
       "shot": "4A",
@@ -1929,7 +1933,8 @@
         }
       },
       "duration": "6100",
-      "action": "Felix quickly slams his cup onto the desk."
+      "action": "Felix quickly slams his cup onto the desk.",
+      "lineMileage": 0
     },
     {
       "uid": "WBZRR",
