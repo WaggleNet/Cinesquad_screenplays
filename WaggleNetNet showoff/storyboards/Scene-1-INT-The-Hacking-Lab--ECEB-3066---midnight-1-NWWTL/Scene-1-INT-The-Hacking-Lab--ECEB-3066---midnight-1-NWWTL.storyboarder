@@ -1,40 +1,2327 @@
 {
-  "version": "1.14.0",
+  "version": "1.15.0",
   "aspectRatio": "1.7777777777777777",
   "fps": 24,
   "defaultBoardTiming": 2000,
   "boards": [
     {
-      "uid": "KECLL",
-      "url": "board-1-KECLL.png",
-      "newShot": false,
-      "lastEdited": 1571343105959,
+      "uid": "EQWZ2",
+      "url": "board-2-EQWZ2.png",
+      "newShot": true,
+      "lastEdited": 1571494656760,
       "layers": {
-        "reference": {
-          "url": "board-1-KECLL-reference.png",
-          "opacity": 0.75
-        },
-        "notes": {
-          "url": "board-1-KECLL-notes.png"
+        "shot-generator": {
+          "url": "board-2-EQWZ2-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-2-EQWZ2-shot-generator-thumbnail.jpg"
         }
       },
-      "number": 1,
       "shot": "1A",
+      "number": 1,
       "time": 0,
-      "duration": "24000",
-      "notes": "",
-      "lineMileage": 251.38285051062726,
-      "action": ""
+      "sg": {
+        "version": "1.15.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 4",
+              "height": 0.8,
+              "id": "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.1241874542472274,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": -0.4158578882227273,
+              "y": 1.5861812071424195,
+              "z": 0.7999999999999999
+            },
+            "51CD444F-FD03-444D-A079-DBB2276CD5EB": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "51CD444F-FD03-444D-A079-DBB2276CD5EB",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": 0.1383379071721841,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.811612653953625e-8,
+                    "y": 2.0903166185988062e-8,
+                    "z": -5.407876437785063e-9
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 3.4694973815653683e-16,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.05068364142401522,
+                    "y": 0.40277630013138616,
+                    "z": 0.7147166870946693
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.4533101896843614,
+                    "y": 0.0441068024049445,
+                    "z": 0.21757073405202826
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": -0.08637126784208497,
+                    "y": 0.05077602679953755,
+                    "z": 1.5126757464683975
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03402986064089306,
+                    "y": 0.07546629472807084,
+                    "z": -0.05357715389161557
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -1.8155520468862003,
+                    "y": 0.03116376255029479,
+                    "z": -0.09329900869832795
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168701576777,
+                    "y": -0.3419417083913681,
+                    "z": -1.6250958544312564
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -1.3720377853955688,
+                    "y": 0.0001275017630778806,
+                    "z": 3.1113926169767048
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.1295682293772021,
+                    "y": 7.602396411900475e-9,
+                    "z": -2.5196795620251815e-8
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": -0.10537676714996302,
+                    "y": -0.19360218456057696,
+                    "z": -0.4743223312797399
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.4202957571269625,
+                    "y": 0.1848530804799801,
+                    "z": -0.06897929231501401
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.15388288910953274,
+                    "y": -0.22642701837572268,
+                    "z": -1.4033877306498936
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.035777928335816826,
+                    "y": -0.08023487431263852,
+                    "z": 0.05717859508874097
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -1.8036943720772098,
+                    "y": -0.030929586663061143,
+                    "z": -0.1757538094862922
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116811047524,
+                    "y": 0.34169062721030546,
+                    "z": 1.6267164856815013
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -1.3639545414553977,
+                    "y": 0.000002311781663206341,
+                    "z": 3.0478099159117233
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032277027,
+                    "y": -7.408502889597151e-17,
+                    "z": 4.1467245720006277e-13
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3476198566650937e-7,
+                    "y": -7.369793301427254e-16,
+                    "z": -4.287016675960193e-12
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.015413559651780219,
+                    "y": 4.3085485727290635e-10,
+                    "z": 2.8843058563182642e-8
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.11955108387498084,
+              "y": -0.3869783210093096,
+              "z": -0.4002635384895198
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 22.491262529573316,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": 9.607816406249997,
+              "tilt": -0.16399999999999998,
+              "type": "camera",
+              "x": -0.04135431634609105,
+              "y": -1.089454567263371,
+              "z": 1.1
+            },
+            "87BD435C-3C2D-4350-B48C-BE1698A60C0A": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 3",
+              "height": 0.8,
+              "id": "87BD435C-3C2D-4350-B48C-BE1698A60C0A",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.136396303569342,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.7320463096675743,
+              "y": 1.5809967876518363,
+              "z": 0.7999999999999999
+            },
+            "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7": {
+              "depth": 1,
+              "displayName": "Object 2",
+              "height": 1,
+              "id": "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7",
+              "model": "chair-box",
+              "rotation": {
+                "x": 0,
+                "y": -0.008135618514933801,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.09643633202920626,
+              "y": -0.44459743145564534,
+              "z": 0
+            },
+            "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB",
+              "model": "table-sit-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": -0.027191396469489027,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.14230196253906247,
+              "y": 0.7032388028405738,
+              "z": 0
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      },
+      "duration": "3500",
+      "action": "Felix is fumbling with something. In front of him, two monitors are rapidly flashing with texts, plots and strange-looking schematics."
     },
     {
-      "uid": "6CBW2",
-      "url": "board-2-6CBW2.png",
-      "newShot": true,
-      "lastEdited": 1571343122333,
-      "layers": {},
+      "uid": "0DQZ6",
+      "url": "board-3-0DQZ6.png",
+      "newShot": false,
+      "lastEdited": 1571494681007,
+      "layers": {
+        "shot-generator": {
+          "url": "board-3-0DQZ6-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-3-0DQZ6-shot-generator-thumbnail.jpg"
+        }
+      },
+      "shot": "1B",
       "number": 2,
+      "time": 3500,
+      "sg": {
+        "version": "1.15.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 4",
+              "height": 0.8,
+              "id": "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.1241874542472274,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": -0.4158578882227273,
+              "y": 1.5861812071424195,
+              "z": 0.7999999999999999
+            },
+            "51CD444F-FD03-444D-A079-DBB2276CD5EB": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "51CD444F-FD03-444D-A079-DBB2276CD5EB",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": 0.1383379071721841,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.811612653953625e-8,
+                    "y": 2.0903166185988062e-8,
+                    "z": -5.407876437785063e-9
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 3.4694973815653683e-16,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.05068364142401522,
+                    "y": 0.40277630013138616,
+                    "z": 0.7147166870946693
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.4533101896843614,
+                    "y": 0.0441068024049445,
+                    "z": 0.21757073405202826
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": -0.08637126784208497,
+                    "y": 0.05077602679953755,
+                    "z": 1.5126757464683975
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03402986064089306,
+                    "y": 0.07546629472807084,
+                    "z": -0.05357715389161557
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -1.8155520468862003,
+                    "y": 0.03116376255029479,
+                    "z": -0.09329900869832795
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168701576777,
+                    "y": -0.3419417083913681,
+                    "z": -1.6250958544312564
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -1.3720377853955688,
+                    "y": 0.0001275017630778806,
+                    "z": 3.1113926169767048
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.1295682293772021,
+                    "y": 7.602396411900475e-9,
+                    "z": -2.5196795620251815e-8
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": -0.10537676714996302,
+                    "y": -0.19360218456057696,
+                    "z": -0.4743223312797399
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.4202957571269625,
+                    "y": 0.1848530804799801,
+                    "z": -0.06897929231501401
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.15388288910953274,
+                    "y": -0.22642701837572268,
+                    "z": -1.4033877306498936
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.035777928335816826,
+                    "y": -0.08023487431263852,
+                    "z": 0.05717859508874097
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -1.8036943720772098,
+                    "y": -0.030929586663061143,
+                    "z": -0.1757538094862922
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116811047524,
+                    "y": 0.34169062721030546,
+                    "z": 1.6267164856815013
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -1.3639545414553977,
+                    "y": 0.000002311781663206341,
+                    "z": 3.0478099159117233
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032277027,
+                    "y": -7.408502889597151e-17,
+                    "z": 4.1467245720006277e-13
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3476198566650937e-7,
+                    "y": -7.369793301427254e-16,
+                    "z": -4.287016675960193e-12
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.015413559651780219,
+                    "y": 4.3085485727290635e-10,
+                    "z": 2.8843058563182642e-8
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.11955108387498084,
+              "y": -0.3869783210093096,
+              "z": -0.4002635384895198
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 39.07193365820961,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": 9.607816406249997,
+              "tilt": -0.16399999999999998,
+              "type": "camera",
+              "x": -0.0731078090170914,
+              "y": -1.4622866223315991,
+              "z": 1.2000000000000002
+            },
+            "87BD435C-3C2D-4350-B48C-BE1698A60C0A": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 3",
+              "height": 0.8,
+              "id": "87BD435C-3C2D-4350-B48C-BE1698A60C0A",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.136396303569342,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.7320463096675743,
+              "y": 1.5809967876518363,
+              "z": 0.7999999999999999
+            },
+            "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7": {
+              "depth": 1,
+              "displayName": "Object 2",
+              "height": 1,
+              "id": "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7",
+              "model": "chair-box",
+              "rotation": {
+                "x": 0,
+                "y": -0.008135618514933801,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.09643633202920626,
+              "y": -0.44459743145564534,
+              "z": 0
+            },
+            "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB",
+              "model": "table-sit-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": -0.027191396469489027,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.14230196253906247,
+              "y": 0.7032388028405738,
+              "z": 0
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": "YD9XF",
+      "url": "board-4-YD9XF.png",
+      "newShot": true,
+      "lastEdited": 1571494832989,
+      "layers": {
+        "shot-generator": {
+          "url": "board-4-YD9XF-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-4-YD9XF-shot-generator-thumbnail.jpg"
+        }
+      },
       "shot": "2A",
-      "time": 24000
+      "number": 3,
+      "time": 5500,
+      "sg": {
+        "version": "1.15.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 4",
+              "height": 0.8,
+              "id": "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.1241874542472274,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": -0.3604081782106928,
+              "y": 0.8917846589966412,
+              "z": 0.7999999999999999
+            },
+            "51CD444F-FD03-444D-A079-DBB2276CD5EB": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "51CD444F-FD03-444D-A079-DBB2276CD5EB",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": 0.1383379071721841,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.811612653953625e-8,
+                    "y": 2.0903166185988062e-8,
+                    "z": -5.407876437785063e-9
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 3.4694973815653683e-16,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.05068364142401522,
+                    "y": 0.40277630013138616,
+                    "z": 0.7147166870946693
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.4533101896843614,
+                    "y": 0.0441068024049445,
+                    "z": 0.21757073405202826
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": -0.08637126784208497,
+                    "y": 0.05077602679953755,
+                    "z": 1.5126757464683975
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03402986064089306,
+                    "y": 0.07546629472807084,
+                    "z": -0.05357715389161557
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -1.8155520468862003,
+                    "y": 0.03116376255029479,
+                    "z": -0.09329900869832795
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529168701576777,
+                    "y": -0.3419417083913681,
+                    "z": -1.6250958544312564
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -1.3720377853955688,
+                    "y": 0.0001275017630778806,
+                    "z": 3.1113926169767048
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.1295682293772021,
+                    "y": 7.602396411900475e-9,
+                    "z": -2.5196795620251815e-8
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": -0.10537676714996302,
+                    "y": -0.19360218456057696,
+                    "z": -0.4743223312797399
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.4202957571269625,
+                    "y": 0.1848530804799801,
+                    "z": -0.06897929231501401
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.15388288910953274,
+                    "y": -0.22642701837572268,
+                    "z": -1.4033877306498936
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.035777928335816826,
+                    "y": -0.08023487431263852,
+                    "z": 0.05717859508874097
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -1.8036943720772098,
+                    "y": -0.030929586663061143,
+                    "z": -0.1757538094862922
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524116811047524,
+                    "y": 0.34169062721030546,
+                    "z": 1.6267164856815013
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -1.3639545414553977,
+                    "y": 0.000002311781663206341,
+                    "z": 3.0478099159117233
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032277027,
+                    "y": -7.408502889597151e-17,
+                    "z": 4.1467245720006277e-13
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3476198566650937e-7,
+                    "y": -7.369793301427254e-16,
+                    "z": -4.287016675960193e-12
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.015413559651780219,
+                    "y": 4.3085485727290635e-10,
+                    "z": 2.8843058563182642e-8
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.035048773854596316,
+              "y": -0.3359104306147753,
+              "z": -0.4002635384895198
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 41.08158152241005,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": 9.472660156249994,
+              "tilt": -1.4246132812499996,
+              "type": "camera",
+              "x": -0.04045363301121788,
+              "y": -0.021684685204710008,
+              "z": 2.4000000000000012
+            },
+            "87BD435C-3C2D-4350-B48C-BE1698A60C0A": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 3",
+              "height": 0.8,
+              "id": "87BD435C-3C2D-4350-B48C-BE1698A60C0A",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.136396303569342,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.6793545565876671,
+              "y": 0.9210662710010795,
+              "z": 0.7999999999999999
+            },
+            "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7": {
+              "depth": 1,
+              "displayName": "Object 2",
+              "height": 1,
+              "id": "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7",
+              "model": "chair-box",
+              "rotation": {
+                "x": 0,
+                "y": -0.008135618514933801,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.09643633202920626,
+              "y": -0.44459743145564534,
+              "z": 0
+            },
+            "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB",
+              "model": "table-sit-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": -0.027191396469489027,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.05055780517710007,
+              "y": 0.328543726298863,
+              "z": 0
+            },
+            "F4D638F8-F256-4691-A4E0-637B44EBE148": {
+              "depth": 1,
+              "displayName": "Object 5",
+              "height": 1,
+              "id": "F4D638F8-F256-4691-A4E0-637B44EBE148",
+              "model": "object-lamp",
+              "rotation": {
+                "x": 0,
+                "y": 1.9024088846738199,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": -0.2242588136267508,
+              "y": 0.4938815945290005,
+              "z": 0.7
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      },
+      "duration": "5100",
+      "action": "Felix is fumbling with a mess of circuits on a breadboard - the complexity is daunting but Felix clearly knows what he's doing. Felix reaches for the coffee cup, which is very empty except there are a few drops left."
+    },
+    {
+      "uid": "QT55Q",
+      "url": "board-5-QT55Q.png",
+      "newShot": false,
+      "lastEdited": 1571494932932,
+      "layers": {
+        "shot-generator": {
+          "url": "board-5-QT55Q-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-5-QT55Q-shot-generator-thumbnail.jpg"
+        }
+      },
+      "shot": "2B",
+      "number": 4,
+      "time": 10600,
+      "sg": {
+        "version": "1.15.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "25C5024E-1B98-45CB-AEAE-20F27E16FE06": {
+              "depth": 0.12500000000000006,
+              "displayName": "Object 6",
+              "height": 0.12500000000000006,
+              "id": "25C5024E-1B98-45CB-AEAE-20F27E16FE06",
+              "model": "primitive-cylinder",
+              "rotation": {
+                "x": 0,
+                "y": -2.8596040381568026,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 0.12500000000000006,
+              "x": -0.48720427756666745,
+              "y": 0.06632337721592364,
+              "z": 0.8999999999999999
+            },
+            "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 4",
+              "height": 0.8,
+              "id": "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.1241874542472274,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": -0.3604081782106928,
+              "y": 0.8917846589966412,
+              "z": 0.7999999999999999
+            },
+            "51CD444F-FD03-444D-A079-DBB2276CD5EB": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "51CD444F-FD03-444D-A079-DBB2276CD5EB",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": 0.1383379071721841,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.8466287186477265e-8,
+                    "y": 2.5330220396858894e-8,
+                    "z": -6.480297198881177e-9
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 1.734748690782685e-16,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.05068359448968663,
+                    "y": 0.40277575388020687,
+                    "z": 0.714716507252682
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.4533079334258374,
+                    "y": 0.0440684545931801,
+                    "z": 0.21751730191059487
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": -0.08637069005748714,
+                    "y": 0.05077630750418925,
+                    "z": 1.512675048493972
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03402984527983424,
+                    "y": 0.07546594830357056,
+                    "z": -0.05357640935176213
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -1.815567228493996,
+                    "y": 0.03112351132073603,
+                    "z": -0.09328977831957126
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529170027962154,
+                    "y": -0.34194166444171264,
+                    "z": -1.6250956816460032
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -1.372037785395568,
+                    "y": 0.00012750176307794133,
+                    "z": 3.1113926169767048
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.12956822938060944,
+                    "y": 7.453278115154185e-9,
+                    "z": -2.1956629676007605e-8
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": -0.19700846923328807,
+                    "y": -0.09974559931532027,
+                    "z": -0.11210923835113877
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.4202896677193817,
+                    "y": 0.18485015300289465,
+                    "z": -0.06896923500435063
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.16860368990896887,
+                    "y": -0.2978408854761123,
+                    "z": -0.9838489704544989
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -2.883173165328205,
+                    "y": 1.2884024970148409,
+                    "z": -3.0105029878485796
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -1.8036887814584275,
+                    "y": -0.030915606777707934,
+                    "z": -0.17575386197534681
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524117546244027,
+                    "y": 0.3416905982716771,
+                    "z": 1.6267163937892737
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -1.3639545414553977,
+                    "y": 0.000002311781663220219,
+                    "z": 3.0478099159117233
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.1449816103227704,
+                    "y": 5.338120307305818e-16,
+                    "z": 4.1440624336802926e-13
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3476198461733952e-7,
+                    "y": -1.4091942167105916e-15,
+                    "z": -4.2900037367081125e-12
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.015413559648370538,
+                    "y": 4.810068792562462e-10,
+                    "z": 2.9612289991279743e-8
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.035949649754652306,
+              "y": -0.3359535995269577,
+              "z": -0.4002635384895198
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 37.29994420340473,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": 9.411496093749992,
+              "tilt": -1.4128085937499997,
+              "type": "camera",
+              "x": -0.5404536330112178,
+              "y": -0.021684685204710008,
+              "z": 2.4000000000000012
+            },
+            "87BD435C-3C2D-4350-B48C-BE1698A60C0A": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 3",
+              "height": 0.8,
+              "id": "87BD435C-3C2D-4350-B48C-BE1698A60C0A",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.136396303569342,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.6793545565876671,
+              "y": 0.9210662710010795,
+              "z": 0.7999999999999999
+            },
+            "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7": {
+              "depth": 1,
+              "displayName": "Object 2",
+              "height": 1,
+              "id": "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7",
+              "model": "chair-box",
+              "rotation": {
+                "x": 0,
+                "y": -0.008135618514933801,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.09643633202920626,
+              "y": -0.44459743145564534,
+              "z": 0
+            },
+            "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB",
+              "model": "table-sit-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": -0.027191396469489027,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.05055780517710007,
+              "y": 0.328543726298863,
+              "z": 0
+            },
+            "F4D638F8-F256-4691-A4E0-637B44EBE148": {
+              "depth": 1,
+              "displayName": "Object 5",
+              "height": 1,
+              "id": "F4D638F8-F256-4691-A4E0-637B44EBE148",
+              "model": "object-lamp",
+              "rotation": {
+                "x": 0,
+                "y": 1.9024088846738199,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": -0.2242588136267508,
+              "y": 0.4938815945290005,
+              "z": 0.7
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      }
+    },
+    {
+      "uid": "R50NL",
+      "url": "board-6-R50NL.png",
+      "newShot": true,
+      "lastEdited": 1571495049829,
+      "layers": {
+        "shot-generator": {
+          "url": "board-6-R50NL-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-6-R50NL-shot-generator-thumbnail.jpg"
+        },
+        "reference": {
+          "url": "board-6-R50NL-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "3A",
+      "number": 5,
+      "time": 12600,
+      "sg": {
+        "version": "1.15.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "25C5024E-1B98-45CB-AEAE-20F27E16FE06": {
+              "depth": 0.12500000000000006,
+              "displayName": "Object 6",
+              "height": 0.12500000000000006,
+              "id": "25C5024E-1B98-45CB-AEAE-20F27E16FE06",
+              "model": "primitive-cylinder",
+              "rotation": {
+                "x": -0.27925268031909267,
+                "y": -2.8596040381568026,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 0.12500000000000006,
+              "x": 0.1667986905827386,
+              "y": -0.15629461168262543,
+              "z": 1.0999999999999999
+            },
+            "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 4",
+              "height": 0.8,
+              "id": "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.1241874542472274,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": -0.3604081782106928,
+              "y": 0.8917846589966412,
+              "z": 0.7999999999999999
+            },
+            "51CD444F-FD03-444D-A079-DBB2276CD5EB": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "51CD444F-FD03-444D-A079-DBB2276CD5EB",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": 0.1383379071721841,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.8524647123930028e-8,
+                    "y": 2.606806283752166e-8,
+                    "z": -6.659033844751726e-9
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 1.734748690782685e-16,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.05068358666729243,
+                    "y": 0.4027756628383412,
+                    "z": 0.714716477279016
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.4533075568865534,
+                    "y": 0.044062064110544134,
+                    "z": 0.21750839721435278
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": -0.08637059376005259,
+                    "y": 0.0507763542882424,
+                    "z": 1.512674932164825
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03402984271956278,
+                    "y": 0.07546589056617853,
+                    "z": -0.05357628526177674
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -1.8155697583366397,
+                    "y": 0.031116803202938522,
+                    "z": -0.09328824052068856
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529170249026556,
+                    "y": -0.3419416571167671,
+                    "z": -1.6250956528484628
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -1.372037785395568,
+                    "y": 0.00012750176307796908,
+                    "z": 3.1113926169767048
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.129568229381177,
+                    "y": 7.428424946733341e-9,
+                    "z": -2.1416602079078312e-8
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.16761250489708857,
+                    "y": 0.14455668925685897,
+                    "z": -1.0738852981165703
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.4202886527766867,
+                    "y": 0.1848496650699977,
+                    "z": -0.06896755876375288
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": -0.044578930741277764,
+                    "y": -0.14630862302321115,
+                    "z": -1.672000635900396
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": 1.3880227227076807,
+                    "y": 1.1778110041392598,
+                    "z": -1.517397298914237
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -1.8036878496459052,
+                    "y": -0.030913276792851167,
+                    "z": -0.17575387075332777
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524117668776876,
+                    "y": 0.3416905934485708,
+                    "z": 1.6267163784739027
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -1.3639545414553977,
+                    "y": 0.000002311781663220219,
+                    "z": 3.0478099159117233
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.1449816103227704,
+                    "y": 6.491347877042336e-16,
+                    "z": 4.143190857767776e-13
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3476198456312862e-7,
+                    "y": -1.5609846909716078e-15,
+                    "z": -4.290486213702471e-12
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.015413559647802763,
+                    "y": 4.893655968164368e-10,
+                    "z": 2.974049529869611e-8
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.04557268743085707,
+              "y": -0.3470413204678263,
+              "z": -0.4002635384895198
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 18.52385089583179,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": 10.624011718749989,
+              "tilt": -0.15225390624999963,
+              "type": "camera",
+              "x": -1.0530297913249118,
+              "y": -0.6321667283968269,
+              "z": 1.4000000000000004
+            },
+            "87BD435C-3C2D-4350-B48C-BE1698A60C0A": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 3",
+              "height": 0.8,
+              "id": "87BD435C-3C2D-4350-B48C-BE1698A60C0A",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.136396303569342,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.6793545565876671,
+              "y": 0.9210662710010795,
+              "z": 0.7999999999999999
+            },
+            "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7": {
+              "depth": 1,
+              "displayName": "Object 2",
+              "height": 1,
+              "id": "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7",
+              "model": "chair-box",
+              "rotation": {
+                "x": 0,
+                "y": -0.008135618514933801,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.09643633202920626,
+              "y": -0.44459743145564534,
+              "z": 0
+            },
+            "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB",
+              "model": "table-sit-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": -0.027191396469489027,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.04409606993468107,
+              "y": 0.33348339163438984,
+              "z": 0
+            },
+            "F4D638F8-F256-4691-A4E0-637B44EBE148": {
+              "depth": 1,
+              "displayName": "Object 5",
+              "height": 1,
+              "id": "F4D638F8-F256-4691-A4E0-637B44EBE148",
+              "model": "object-lamp",
+              "rotation": {
+                "x": 0,
+                "y": 1.9024088846738199,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": -0.2242588136267508,
+              "y": 0.4938815945290005,
+              "z": 0.7
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      },
+      "lineMileage": 0,
+      "action": "Felix raises his coffee cup to drink. Half way in the air, his hand stopped. He realizes it's empty.",
+      "duration": "6100"
+    },
+    {
+      "uid": "2GOY6",
+      "url": "board-7-2GOY6.png",
+      "newShot": true,
+      "lastEdited": 1571495115751,
+      "layers": {
+        "shot-generator": {
+          "url": "board-7-2GOY6-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-7-2GOY6-shot-generator-thumbnail.jpg"
+        }
+      },
+      "shot": "4A",
+      "number": 6,
+      "time": 18700,
+      "sg": {
+        "version": "1.15.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "25C5024E-1B98-45CB-AEAE-20F27E16FE06": {
+              "depth": 0.12500000000000006,
+              "displayName": "Object 6",
+              "height": 0.12500000000000006,
+              "id": "25C5024E-1B98-45CB-AEAE-20F27E16FE06",
+              "model": "primitive-cylinder",
+              "rotation": {
+                "x": 0,
+                "y": -2.8596040381568026,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 0.12500000000000006,
+              "x": -0.24767433322861526,
+              "y": 0.10796659484861298,
+              "z": 0.8999999999999999
+            },
+            "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 4",
+              "height": 0.8,
+              "id": "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.1241874542472274,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": -0.3604081782106928,
+              "y": 0.8917846589966412,
+              "z": 0.7999999999999999
+            },
+            "51CD444F-FD03-444D-A079-DBB2276CD5EB": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "51CD444F-FD03-444D-A079-DBB2276CD5EB",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": 0.1383379071721841,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.8583007561804086e-8,
+                    "y": 2.6805905408301e-8,
+                    "z": -6.837770465590357e-9
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 1.734748690782685e-16,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.050683578844896396,
+                    "y": 0.40277557179647466,
+                    "z": 0.7147164473053496
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.4533071802055286,
+                    "y": 0.044055673862004825,
+                    "z": 0.21749949270684743
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": -0.08637049746261753,
+                    "y": 0.05077640107227961,
+                    "z": 1.5126748158356556
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.034029840159264114,
+                    "y": 0.07546583282879375,
+                    "z": -0.05357616117178798
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -1.81557228805778,
+                    "y": 0.031110095205256712,
+                    "z": -0.09328670289254298
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529170470091012,
+                    "y": -0.3419416497918211,
+                    "z": -1.6250956240509233
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -1.372037785395568,
+                    "y": 0.00012750176307791704,
+                    "z": 3.1113926169767048
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.12956822938174462,
+                    "y": 7.403571668208632e-9,
+                    "z": -2.087657450104773e-8
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": -0.03782854749404728,
+                    "y": 0.3655895080312345,
+                    "z": -0.39333583470290345
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.4202876378221534,
+                    "y": 0.18484917713137156,
+                    "z": -0.06896588251682581
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.7156661681648956,
+                    "y": 0.3226132024586362,
+                    "z": -0.5904047572198825
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": -0.001700936698510404,
+                    "y": -0.2970362404056466,
+                    "z": -0.6247835009778722
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -1.8036869178211756,
+                    "y": -0.03091094680686175,
+                    "z": -0.17575387953982405
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524117791309746,
+                    "y": 0.34169058862546414,
+                    "z": 1.6267163631585317
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -1.3639545414553977,
+                    "y": 0.000002311781663220219,
+                    "z": 3.0478099159117233
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.1449816103227704,
+                    "y": 6.628067075768481e-16,
+                    "z": 4.142809056604449e-13
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3476198453060208e-7,
+                    "y": -1.6368799085622358e-15,
+                    "z": -4.291024256861252e-12
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.015413559647235075,
+                    "y": 4.977243688172417e-10,
+                    "z": 2.9868700635510687e-8
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.04557268743085707,
+              "y": -0.3470413204678263,
+              "z": -0.4002635384895198
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 30.378150020355925,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": 10.07752734374999,
+              "tilt": -0.4173515624999996,
+              "type": "camera",
+              "x": -1.0530297913249118,
+              "y": -0.6321667283968269,
+              "z": 1.4000000000000004
+            },
+            "87BD435C-3C2D-4350-B48C-BE1698A60C0A": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 3",
+              "height": 0.8,
+              "id": "87BD435C-3C2D-4350-B48C-BE1698A60C0A",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.136396303569342,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.6793545565876671,
+              "y": 0.9210662710010795,
+              "z": 0.7999999999999999
+            },
+            "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7": {
+              "depth": 1,
+              "displayName": "Object 2",
+              "height": 1,
+              "id": "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7",
+              "model": "chair-box",
+              "rotation": {
+                "x": 0,
+                "y": -0.008135618514933801,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.09643633202920626,
+              "y": -0.44459743145564534,
+              "z": 0
+            },
+            "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB",
+              "model": "table-sit-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": -0.027191396469489027,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.04409606993468107,
+              "y": 0.33348339163438984,
+              "z": 0
+            },
+            "F4D638F8-F256-4691-A4E0-637B44EBE148": {
+              "depth": 1,
+              "displayName": "Object 5",
+              "height": 1,
+              "id": "F4D638F8-F256-4691-A4E0-637B44EBE148",
+              "model": "object-lamp",
+              "rotation": {
+                "x": 0,
+                "y": 1.9024088846738199,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": -0.2242588136267508,
+              "y": 0.4938815945290005,
+              "z": 0.7
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      },
+      "duration": "6100",
+      "action": "Felix quickly slams his cup onto the desk."
+    },
+    {
+      "uid": "WBZRR",
+      "url": "board-8-WBZRR.png",
+      "newShot": true,
+      "lastEdited": 1571495259272,
+      "layers": {
+        "shot-generator": {
+          "url": "board-8-WBZRR-shot-generator.png",
+          "opacity": 1,
+          "thumbnail": "board-8-WBZRR-shot-generator-thumbnail.jpg"
+        },
+        "reference": {
+          "url": "board-8-WBZRR-reference.png",
+          "opacity": 1
+        },
+        "fill": {
+          "url": "board-8-WBZRR-fill.png"
+        },
+        "tone": {
+          "url": "board-8-WBZRR-tone.png"
+        },
+        "pencil": {
+          "url": "board-8-WBZRR-pencil.png"
+        },
+        "ink": {
+          "url": "board-8-WBZRR-ink.png"
+        },
+        "notes": {
+          "url": "board-8-WBZRR-notes.png"
+        }
+      },
+      "shot": "5A",
+      "number": 7,
+      "time": 24800,
+      "sg": {
+        "version": "1.15.0",
+        "data": {
+          "activeCamera": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+          "sceneObjects": {
+            "25C5024E-1B98-45CB-AEAE-20F27E16FE06": {
+              "depth": 0.12500000000000006,
+              "displayName": "Object 6",
+              "height": 0.12500000000000006,
+              "id": "25C5024E-1B98-45CB-AEAE-20F27E16FE06",
+              "model": "primitive-cylinder",
+              "rotation": {
+                "x": 0,
+                "y": -2.8596040381568026,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 0.12500000000000006,
+              "x": -0.7341401311566373,
+              "y": 0.06034382154645307,
+              "z": 0.8999999999999999
+            },
+            "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 4",
+              "height": 0.8,
+              "id": "2B0D7BD8-165D-4709-BCA2-4CCF0B6F5C43",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.1241874542472274,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": -0.3604081782106928,
+              "y": 0.8917846589966412,
+              "z": 0.7999999999999999
+            },
+            "3DB2ECF0-7030-47CC-BAD3-BDE1F3ADA4D7": {
+              "depth": 0.12500000000000017,
+              "displayName": "Object 8",
+              "height": 0.12500000000000017,
+              "id": "3DB2ECF0-7030-47CC-BAD3-BDE1F3ADA4D7",
+              "model": "tree-bushy",
+              "rotation": {
+                "x": 0,
+                "y": -2.4444311199877236,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 0.12500000000000017,
+              "x": 0.03549320194933775,
+              "y": 0.20089296377695764,
+              "z": 0.5999999999999998
+            },
+            "51CD444F-FD03-444D-A079-DBB2276CD5EB": {
+              "displayName": "Character 1",
+              "headScale": 1,
+              "height": 1.8,
+              "id": "51CD444F-FD03-444D-A079-DBB2276CD5EB",
+              "model": "adult-male",
+              "morphTargets": {
+                "ectomorphic": 0,
+                "endomorphic": 0,
+                "mesomorphic": 0
+              },
+              "rotation": 0.1383379071721841,
+              "skeleton": {
+                "Head": {
+                  "rotation": {
+                    "x": -2.8758088786791468e-8,
+                    "y": 2.9019433261649922e-8,
+                    "z": -7.373980220296062e-9
+                  }
+                },
+                "Hips": {
+                  "rotation": {
+                    "x": 0,
+                    "y": 1.734748690782685e-16,
+                    "z": 0
+                  }
+                },
+                "LeftArm": {
+                  "rotation": {
+                    "x": 0.05068355537769609,
+                    "y": 0.4027752986708688,
+                    "z": 0.7147163573843456
+                  }
+                },
+                "LeftFoot": {
+                  "rotation": {
+                    "x": 1.4533060493121193,
+                    "y": 0.04403650452097849,
+                    "z": 0.21747278031666092
+                  }
+                },
+                "LeftForeArm": {
+                  "rotation": {
+                    "x": -0.08637020857030658,
+                    "y": 0.050776541424295864,
+                    "z": 1.5126744668480196
+                  }
+                },
+                "LeftHand": {
+                  "rotation": {
+                    "x": -0.03402983247820616,
+                    "y": 0.07546565961668178,
+                    "z": -0.053575788901805144
+                  }
+                },
+                "LeftLeg": {
+                  "rotation": {
+                    "x": -1.8155798764922562,
+                    "y": 0.031089971932846246,
+                    "z": -0.09328209103253199
+                  }
+                },
+                "LeftShoulder": {
+                  "rotation": {
+                    "x": 1.5529171133284696,
+                    "y": -0.34194162781697807,
+                    "z": -1.625095537658307
+                  }
+                },
+                "LeftUpLeg": {
+                  "rotation": {
+                    "x": -1.372037785395568,
+                    "y": 0.00012750176307791704,
+                    "z": 3.1113926169767048
+                  }
+                },
+                "Neck": {
+                  "rotation": {
+                    "x": 0.12956822938344922,
+                    "y": 7.329011716830688e-9,
+                    "z": -1.925649153808308e-8
+                  }
+                },
+                "RightArm": {
+                  "rotation": {
+                    "x": 0.03315354676330136,
+                    "y": 0.3348789583021248,
+                    "z": -0.3566457223573511
+                  }
+                },
+                "RightFoot": {
+                  "rotation": {
+                    "x": 1.4202845928875298,
+                    "y": 0.1848477132811181,
+                    "z": -0.06896085373806692
+                  }
+                },
+                "RightForeArm": {
+                  "rotation": {
+                    "x": 0.8996339443222425,
+                    "y": -0.3105876511852425,
+                    "z": -0.9505905842879774
+                  }
+                },
+                "RightHand": {
+                  "rotation": {
+                    "x": 0.3309994352633013,
+                    "y": -0.34677977628280193,
+                    "z": -0.20360472168796667
+                  }
+                },
+                "RightLeg": {
+                  "rotation": {
+                    "x": -1.8036841222737392,
+                    "y": -0.030903956842097804,
+                    "z": -0.1757539059504041
+                  }
+                },
+                "RightShoulder": {
+                  "rotation": {
+                    "x": 1.5524118158908544,
+                    "y": 0.3416905741561432,
+                    "z": 1.626716317212418
+                  }
+                },
+                "RightUpLeg": {
+                  "rotation": {
+                    "x": -1.3639545414553977,
+                    "y": 0.000002311781663220219,
+                    "z": 3.0478099159117233
+                  }
+                },
+                "Spine": {
+                  "rotation": {
+                    "x": -0.14498161032277046,
+                    "y": 8.985410589779096e-16,
+                    "z": 4.1418660525086017e-13
+                  }
+                },
+                "Spine1": {
+                  "rotation": {
+                    "x": -1.3476198436796937e-7,
+                    "y": -1.951302994034487e-15,
+                    "z": -4.2926316099813414e-12
+                  }
+                },
+                "Spine2": {
+                  "rotation": {
+                    "x": 0.015413559645530558,
+                    "y": 5.228005857981743e-10,
+                    "z": 3.0253316459678826e-8
+                  }
+                }
+              },
+              "type": "character",
+              "visible": true,
+              "x": 0.04586952474199579,
+              "y": -0.3472684591008963,
+              "z": -0.4002635384895198
+            },
+            "6BC46A44-7965-43B5-B290-E3D2B9D15EEE": {
+              "displayName": "Camera 1",
+              "fov": 22.275333337289535,
+              "id": "6BC46A44-7965-43B5-B290-E3D2B9D15EEE",
+              "roll": 0,
+              "rotation": 10.102511718749989,
+              "tilt": -0.4377148437499996,
+              "type": "camera",
+              "x": -0.6610252365283087,
+              "y": -0.5172543107979822,
+              "z": 1.4000000000000004
+            },
+            "87BD435C-3C2D-4350-B48C-BE1698A60C0A": {
+              "depth": 0.22500000000000006,
+              "displayName": "Object 3",
+              "height": 0.8,
+              "id": "87BD435C-3C2D-4350-B48C-BE1698A60C0A",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": 3.136396303569342,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.6793545565876671,
+              "y": 0.9210662710010795,
+              "z": 0.7999999999999999
+            },
+            "9E869B2B-237D-4C1B-9B14-117D112A8D6E": {
+              "depth": 0.125,
+              "displayName": "Object 7",
+              "height": 0.025,
+              "id": "9E869B2B-237D-4C1B-9B14-117D112A8D6E",
+              "model": "box",
+              "rotation": {
+                "x": 0,
+                "y": -2.4674404258896914,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 0.125,
+              "x": 0.16669695924887873,
+              "y": 0.12254924799934924,
+              "z": 0.7999999999999999
+            },
+            "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7": {
+              "depth": 1,
+              "displayName": "Object 2",
+              "height": 1,
+              "id": "E4FA1BF9-8987-4A0C-ABF6-31C36F8E46F7",
+              "model": "chair-box",
+              "rotation": {
+                "x": 0,
+                "y": -0.008135618514933801,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.09643633202920626,
+              "y": -0.44459743145564534,
+              "z": 0
+            },
+            "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB": {
+              "depth": 1,
+              "displayName": "Object 1",
+              "height": 1,
+              "id": "E9E4B6FB-FE87-4E6C-93F3-425E32145AFB",
+              "model": "table-sit-rectangle",
+              "rotation": {
+                "x": 0,
+                "y": -0.027191396469489027,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": 0.07594768456287704,
+              "y": 0.3551787835111995,
+              "z": 0
+            },
+            "F4D638F8-F256-4691-A4E0-637B44EBE148": {
+              "depth": 1,
+              "displayName": "Object 5",
+              "height": 1,
+              "id": "F4D638F8-F256-4691-A4E0-637B44EBE148",
+              "model": "object-lamp",
+              "rotation": {
+                "x": 0,
+                "y": 1.9024088846738199,
+                "z": 0
+              },
+              "type": "object",
+              "visible": true,
+              "width": 1,
+              "x": -0.2242588136267508,
+              "y": 0.4938815945290005,
+              "z": 0.7
+            }
+          },
+          "world": {
+            "ambient": {
+              "intensity": 0.5
+            },
+            "backgroundColor": 15066597,
+            "directional": {
+              "intensity": 0.5,
+              "rotation": -0.9,
+              "tilt": 0.75
+            },
+            "environment": {
+              "rotation": 0,
+              "scale": 1,
+              "visible": true,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "fog": {
+              "far": 40,
+              "visible": true
+            },
+            "ground": true,
+            "room": {
+              "height": 3,
+              "length": 10,
+              "visible": false,
+              "width": 10
+            }
+          }
+        }
+      },
+      "duration": "6300",
+      "action": "Felix's fingers twitched a little - and connected a wire where it should not have been. The circuit explodes - releasing sparks, smokes along with a sharp ",
+      "lineMileage": 0
     }
   ]
 }

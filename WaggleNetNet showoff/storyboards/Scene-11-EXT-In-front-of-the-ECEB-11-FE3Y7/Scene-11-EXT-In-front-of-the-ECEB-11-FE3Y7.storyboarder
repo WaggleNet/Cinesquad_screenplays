@@ -1,0 +1,18 @@
+{
+  "version": "1.15.0",
+  "aspectRatio": "1.7777777777777777",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "W1YKM",
+      "url": "board-1-W1YKM.png",
+      "newShot": false,
+      "lastEdited": 1571460929038,
+      "layers": {},
+      "number": 1,
+      "shot": "1A",
+      "time": 0
+    }
+  ]
+}
